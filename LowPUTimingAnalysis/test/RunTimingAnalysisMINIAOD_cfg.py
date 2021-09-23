@@ -1,4 +1,3 @@
-
 import FWCore.ParameterSet.Config as cms
 import copy
 
@@ -44,7 +43,7 @@ process.source = cms.Source ("PoolSource",
                              fileNames = cms.untracked.vstring(
                                  #                                 '/store/data/Run2017C/ZeroBias7/AOD/09Aug2019_UL2017_LowPU-v1/230000/9C1D5DEC-FF09-5C45-AAAF-10D5FC5A9217.root'
                                  #'/store/data/Run2018C/SingleMuon/AOD/12Nov2019_UL2018-v2/2810000/CFB1C304-132A-984D-BB52-9C6AC337304E.root'
-                                 '/store/data/Run2017H/ZeroBias/MINIAOD/09Aug2019_UL2017_LowPU-v1/240000/B5B386B1-FD6B-2E4D-9C64-AD70F17EA663.root'
+                                 ###'/store/data/Run2017H/ZeroBias/MINIAOD/09Aug2019_UL2017_LowPU-v1/240000/B5B386B1-FD6B-2E4D-9C64-AD70F17EA663.root'
         )
                              )
 
@@ -63,7 +62,7 @@ process.mydiamonds = cms.EDAnalyzer(
     tagTrackLites = cms.InputTag( "ctppsLocalTrackLiteProducer"),
     ppsRecoProtonSingleRPTag = cms.InputTag("ctppsProtons", "singleRP"),
     ppsRecoProtonMultiRPTag = cms.InputTag("ctppsProtons", "multiRP"),
-    outfilename = cms.untracked.string( "output_ZeroBias.root" ),
+    outfilename = cms.untracked.string( "output_wmass1_ZeroBias.root" ),
     isMC = cms.bool(False)
 )
 
