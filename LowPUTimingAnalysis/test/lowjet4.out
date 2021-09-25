@@ -1,0 +1,2127 @@
+Script started on Sat Sep 25 09:49:21 2021
+------------------------------------------------------------------------------
+                     ..::[1mPowered by CMS-LPC[22m::..                      
+
+   Hostname: cmslpc150.fnal.gov          OS Release: SLF 7.9 (Nitrogen)        
+         IP: 131.225.189.181                 Subnet: 255.255.252.0             
+
+     Kernel: 3.10.0-1160.36.2                  Arch: x86_64                    
+        RAM: 11.57 GiB                         Swap: 10.00 GiB                 
+      Cores: 8                              Virtual: rhev                      
+
+ SSH Logins: 8                             Load Avg: 0.0 0.02 0.05             
+------------------------------------------------------------------------------
+  For information about computing at the LPC: http://lpc.fnal.gov/computing   
+------------------------------------------------------------------------------
+]0;lgemedia@cmslpc150:src[lgemedia@cmslpc150 src]$ root -l
+[0mroot [0] .q[D[Dt.Loop(); [D[D[D[D[D[D[D[D[D[DNewTimingMacro t[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.L NewTimingMacro.C
+[0m[0mroot [1] .L [0m[38;5;12m[1mNewTimingMacro[0m.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[Dt.Loop(); [D[D[D[D[D[D[D[D[D[D[0m[38;5;12m[1mNewTimingMacro[0m t
+[0m(NewTimingMacro &) @0x7fa23bee2010
+[0mroot [2] [0m[38;5;12m[1mNewTimingMacro[0m t[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.L [0m[38;5;12m[1mNewTimingMacro[0m.C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D.q[K[D[Dt.Loop(); 
+[0mjentry 0/156584 Event 289325155
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 72 vec(0) event 322130443 p1time -999 p2time -999 vtx_z -4.95185 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 211 vec(1) event 296010807 p1time -999 p2time -999 vtx_z -0.108984 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 288 vec(2) event 320361961 p1time -999 p2time -999 vtx_z -1.28153 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 539 vec(3) event 346316118 p1time -999 p2time -999 vtx_z -3.72925 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 800 vec(4) event 2868470335 p1time -999 p2time -999 vtx_z 4.76038 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 903 vec(5) event 19110499 p1time -999 p2time -999 vtx_z 3.98127 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.0603971, t(p2) = -999
+jentry 943 vec(6) event 28662728 p1time 0.0603971 p2time -999 vtx_z 2.93421 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 978 vec(7) event 41323199 p1time -999 p2time -999 vtx_z 1.74648 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 1826 vec(8) event 102307211 p1time -999 p2time -999 vtx_z 3.55163 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 2030 vec(9) event 137603908 p1time -999 p2time -999 vtx_z 3.5051 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 2143 vec(10) event 390631947 p1time -999 p2time -999 vtx_z 2.11085 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 2150 vec(11) event 391016351 p1time -999 p2time -999 vtx_z -1.59164 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 2396 vec(12) event 1614366834 p1time -999 p2time -999 vtx_z 5.45761 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 2517 vec(13) event 1896159664 p1time -999 p2time -999 vtx_z 11.1279 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.34919, t(p2) = -999
+jentry 2711 vec(14) event 1576099517 p1time 0.34919 p2time -999 vtx_z 3.08893 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 10
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 2800 vec(15) event 1597087937 p1time -999 p2time -999 vtx_z -5.06715 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.665619
+jentry 3422 vec(16) event 1582070657 p1time -999 p2time 0.665619 vtx_z 1.33252 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.11998, t(p2) = -999
+jentry 3669 vec(17) event 1592032056 p1time 0.11998 p2time -999 vtx_z -4.64465 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 3785 vec(18) event 1522522472 p1time -999 p2time -999 vtx_z 3.70407 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 3788 vec(19) event 1522305063 p1time -999 p2time -999 vtx_z -3.87096 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 3974 vec(20) event 1536218883 p1time -999 p2time -999 vtx_z 7.67804 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 4039 vec(21) event 1537887030 p1time -999 p2time -999 vtx_z 3.71953 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 4134 vec(22) event 1554211542 p1time -999 p2time -999 vtx_z 0.0659505 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 5143 vec(23) event 1762853463 p1time -999 p2time -999 vtx_z -6.13552 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 5437 vec(24) event 1662808572 p1time -999 p2time -999 vtx_z 8.50538 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.334591
+jentry 5934 vec(25) event 1677651534 p1time -999 p2time 0.334591 vtx_z 5.23379 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 5969 vec(26) event 1687118210 p1time -999 p2time -999 vtx_z -0.0737716 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 6060 vec(27) event 1929570320 p1time -999 p2time -999 vtx_z -3.26129 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.0137035
+jentry 6079 vec(28) event 1930549612 p1time -999 p2time 0.0137035 vtx_z 4.44808 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.23525, t(p2) = -999
+jentry 6187 vec(29) event 2142294270 p1time -0.23525 p2time -999 vtx_z -1.63693 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.181135, t(p2) = -999
+jentry 6355 vec(30) event 1597775791 p1time 0.181135 p2time -999 vtx_z 5.3763 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 6571 vec(31) event 1648400134 p1time -999 p2time -999 vtx_z 3.71728 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 6765 vec(32) event 1691822481 p1time -999 p2time -999 vtx_z -6.48107 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 6884 vec(33) event 1781867936 p1time -999 p2time -999 vtx_z -4.31727 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 7352 vec(34) event 1634357605 p1time -999 p2time -999 vtx_z 0.544314 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 7762 vec(35) event 1657950698 p1time -999 p2time -999 vtx_z -5.72072 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8040 vec(36) event 702066451 p1time -999 p2time -999 vtx_z 0.124766 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8087 vec(37) event 721915674 p1time -999 p2time -999 vtx_z 0.43978 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8237 vec(38) event 1700961586 p1time -999 p2time -999 vtx_z -2.52027 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8263 vec(39) event 1705295179 p1time -999 p2time -999 vtx_z 2.08115 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8381 vec(40) event 1722218965 p1time -999 p2time -999 vtx_z -6.54127 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8452 vec(41) event 1726926152 p1time -999 p2time -999 vtx_z -1.04535 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8472 vec(42) event 1729153806 p1time -999 p2time -999 vtx_z 2.0106 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8520 vec(43) event 1735433934 p1time -999 p2time -999 vtx_z 8.63809 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8592 vec(44) event 1668765556 p1time -999 p2time -999 vtx_z 2.59724 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 8739 vec(45) event 1684100912 p1time -999 p2time -999 vtx_z 6.26608 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 9030 vec(46) event 1742214857 p1time -999 p2time -999 vtx_z 2.1472 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 9270 vec(47) event 1706591969 p1time -999 p2time -999 vtx_z -1.72594 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 9611 vec(48) event 291372420 p1time -999 p2time -999 vtx_z 1.72309 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 9764 vec(49) event 1756341695 p1time -999 p2time -999 vtx_z 2.39203 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 9968 vec(50) event 1773228446 p1time -999 p2time -999 vtx_z 0.417043 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+jentry 10000/156584 Event 1774568735
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 10037 vec(51) event 1774780763 p1time -999 p2time -999 vtx_z -6.48807 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 10181 vec(52) event 1785878401 p1time -999 p2time -999 vtx_z -0.907471 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 10245 vec(53) event 1787275280 p1time -999 p2time -999 vtx_z 0.850285 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.0881433, t(p2) = -999
+jentry 10876 vec(54) event 1815472670 p1time 0.0881433 p2time -999 vtx_z 4.38557 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.199446, t(p2) = -999
+jentry 11254 vec(55) event 1905150624 p1time 0.199446 p2time -999 vtx_z 8.08569 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 7
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 11932 vec(56) event 1878154727 p1time -999 p2time -999 vtx_z -0.235787 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 12299 vec(57) event 1932727044 p1time -999 p2time -999 vtx_z 1.08768 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 12305 vec(58) event 1932461731 p1time -999 p2time -999 vtx_z -0.378245 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 13014 vec(59) event 2194423707 p1time -999 p2time -999 vtx_z 9.37808 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 13081 vec(60) event 2227464593 p1time -999 p2time -999 vtx_z 7.41039 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 13089 vec(61) event 2228139199 p1time -999 p2time -999 vtx_z -0.181511 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 10
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 13159 vec(62) event 1899309162 p1time -999 p2time -999 vtx_z 3.10013 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 13631 vec(63) event 2148521483 p1time -999 p2time -999 vtx_z -1.45331 np1 1 np2 1 ntk1vtx 0 goodvtx 11 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14108 vec(64) event 1938289190 p1time -999 p2time -999 vtx_z 2.48088 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14147 vec(65) event 1944787295 p1time -999 p2time -999 vtx_z 5.62818 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0113038, t(p2) = -999
+jentry 14220 vec(66) event 1940240720 p1time -0.0113038 p2time -999 vtx_z -2.20912 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14380 vec(67) event 2004018184 p1time -999 p2time -999 vtx_z 3.28324 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0477586, t(p2) = -999
+jentry 14478 vec(68) event 2009939457 p1time -0.0477586 p2time -999 vtx_z -2.76969 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14572 vec(69) event 2025396042 p1time -999 p2time -999 vtx_z 4.71531 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14717 vec(70) event 1947439425 p1time -999 p2time -999 vtx_z 4.36092 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14881 vec(71) event 1956385329 p1time -999 p2time -999 vtx_z 1.86843 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 14976 vec(72) event 1961872197 p1time -999 p2time -999 vtx_z 2.00225 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 15232 vec(73) event 1953703693 p1time -999 p2time -999 vtx_z -5.0262 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 15749 vec(74) event 1982930871 p1time -999 p2time -999 vtx_z 3.87778 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.607491, t(p2) = -999
+jentry 16576 vec(75) event 1310148167 p1time 0.607491 p2time -999 vtx_z -3.31052 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 17547 vec(76) event 1318088005 p1time -999 p2time -999 vtx_z 1.96165 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 17691 vec(77) event 24005672 p1time -999 p2time -999 vtx_z -4.3802 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = 0.135555, t(p2) = -999
+jentry 17809 vec(78) event 214216387 p1time 0.135555 p2time -999 vtx_z 4.91961 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 18363 vec(79) event 1554935249 p1time -999 p2time -999 vtx_z 2.52209 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 18731 vec(80) event 404103732 p1time -999 p2time -999 vtx_z -0.353754 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19094 vec(81) event 1634650687 p1time -999 p2time -999 vtx_z 5.05618 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.409756, t(p2) = -999
+jentry 19179 vec(82) event 1649603573 p1time 0.409756 p2time -999 vtx_z 3.12294 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 7
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19212 vec(83) event 438528879 p1time -999 p2time -999 vtx_z -0.671428 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19228 vec(84) event 438317589 p1time -999 p2time -999 vtx_z -2.43828 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19604 vec(85) event 1714711206 p1time -999 p2time -999 vtx_z -6.93171 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19723 vec(86) event 37432692 p1time -999 p2time -999 vtx_z 2.71616 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.688721
+jentry 19727 vec(87) event 29749950 p1time -999 p2time 0.688721 vtx_z 1.27255 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19749 vec(88) event 31094634 p1time -999 p2time -999 vtx_z -2.82474 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 19912 vec(89) event 136848979 p1time -999 p2time -999 vtx_z -1.90202 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 20000/156584 Event 1116606352
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 20231 vec(90) event 26512055 p1time -999 p2time -999 vtx_z 0.322205 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 20575 vec(91) event 186521976 p1time -999 p2time -999 vtx_z -0.647273 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0467844, t(p2) = -999
+jentry 20855 vec(92) event 260532465 p1time -0.0467844 p2time -999 vtx_z 2.63152 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.504745, t(p2) = -999
+jentry 20986 vec(93) event 98370305 p1time 0.504745 p2time -999 vtx_z -5.50672 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 21145 vec(94) event 57100129 p1time -999 p2time -999 vtx_z 1.49874 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 21759 vec(95) event 405418170 p1time -999 p2time -999 vtx_z -5.39252 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 21979 vec(96) event 1194238205 p1time -999 p2time -999 vtx_z 2.27049 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22007 vec(97) event 1229030279 p1time -999 p2time -999 vtx_z 2.66043 np1 1 np2 1 ntk1vtx 0 goodvtx 11 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22046 vec(98) event 1241670700 p1time -999 p2time -999 vtx_z -0.448538 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22054 vec(99) event 1277701376 p1time -999 p2time -999 vtx_z 3.50753 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22330 vec(100) event 1223167324 p1time -999 p2time -999 vtx_z 4.75655 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.398422, t(p2) = -999
+jentry 22388 vec(101) event 1252172700 p1time 0.398422 p2time -999 vtx_z 0.108371 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22670 vec(102) event 1293992442 p1time -999 p2time -999 vtx_z 0.564999 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22679 vec(103) event 1459186656 p1time -999 p2time -999 vtx_z 0.146707 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 22929 vec(104) event 95582688 p1time -999 p2time -999 vtx_z -2.05009 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 23123 vec(105) event 1291657136 p1time -999 p2time -999 vtx_z 0.861208 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 23166 vec(106) event 1370912301 p1time -999 p2time -999 vtx_z 4.98074 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 23323 vec(107) event 1539769844 p1time -999 p2time -999 vtx_z 7.25464 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 23424 vec(108) event 1540219465 p1time -999 p2time -999 vtx_z -2.8276 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.307941
+jentry 23652 vec(109) event 1570210745 p1time -999 p2time -0.307941 vtx_z -2.49839 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.624046, t(p2) = -999
+jentry 23840 vec(110) event 1550766818 p1time -0.624046 p2time -999 vtx_z -1.90319 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 24251 vec(111) event 1536726747 p1time -999 p2time -999 vtx_z 3.89554 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.353474, t(p2) = -999
+jentry 24289 vec(112) event 68106726 p1time -0.353474 p2time -999 vtx_z -0.377391 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 7
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 24448 vec(113) event 95602936 p1time -999 p2time -999 vtx_z 7.288 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 24498 vec(114) event 105074166 p1time -999 p2time -999 vtx_z 3.47632 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 24820 vec(115) event 12850266 p1time -999 p2time -999 vtx_z -0.769784 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.299522
+jentry 24882 vec(116) event 17144652 p1time -999 p2time 0.299522 vtx_z -0.489194 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.00492275, t(p2) = -999
+jentry 25019 vec(117) event 21336953 p1time -0.00492275 p2time -999 vtx_z 1.28679 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 25415 vec(118) event 396916325 p1time -999 p2time -999 vtx_z 4.07146 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 25567 vec(119) event 113259780 p1time -999 p2time -999 vtx_z 4.89161 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 25758 vec(120) event 739946132 p1time -999 p2time -999 vtx_z -1.96677 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 25858 vec(121) event 41911483 p1time -999 p2time -999 vtx_z 1.91616 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 26354 vec(122) event 14871933 p1time -999 p2time -999 vtx_z -0.130317 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 26387 vec(123) event 74952319 p1time -999 p2time -999 vtx_z -2.51433 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.516693
+jentry 26402 vec(124) event 74906235 p1time -999 p2time -0.516693 vtx_z 1.08678 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 27039 vec(125) event 295551695 p1time -999 p2time -999 vtx_z 5.20738 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.268448, t(p2) = -999
+jentry 27056 vec(126) event 300615573 p1time -0.268448 p2time -999 vtx_z 2.7587 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 27148 vec(127) event 25259256 p1time -999 p2time -999 vtx_z 4.68649 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 27365 vec(128) event 57547996 p1time -999 p2time -999 vtx_z -5.5586 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.0815563, t(p2) = -999
+jentry 27442 vec(129) event 257890762 p1time 0.0815563 p2time -999 vtx_z 6.49606 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 27514 vec(130) event 480094931 p1time -999 p2time -999 vtx_z 10.1348 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.175056
+jentry 27767 vec(131) event 137090375 p1time -999 p2time 0.175056 vtx_z -7.43563 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 27810 vec(132) event 66733654 p1time -999 p2time -999 vtx_z 8.87935 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.12648, t(p2) = -999
+jentry 27832 vec(133) event 206980180 p1time -0.12648 p2time -999 vtx_z 0.948539 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 28021 vec(134) event 30551636 p1time -999 p2time -999 vtx_z -11.5881 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 28176 vec(135) event 152046722 p1time -999 p2time -999 vtx_z 7.49166 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 28435 vec(136) event 103812059 p1time -999 p2time -999 vtx_z 4.58992 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 28700 vec(137) event 159089840 p1time -999 p2time -999 vtx_z 2.22707 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29061 vec(138) event 101582817 p1time -999 p2time -999 vtx_z -3.23559 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29102 vec(139) event 186340496 p1time -999 p2time -999 vtx_z 3.85629 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29302 vec(140) event 109773055 p1time -999 p2time -999 vtx_z -0.468755 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29459 vec(141) event 169901150 p1time -999 p2time -999 vtx_z 2.54821 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29826 vec(142) event 319806532 p1time -999 p2time -999 vtx_z 2.29974 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29928 vec(143) event 1092529851 p1time -999 p2time -999 vtx_z 5.74402 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29958 vec(144) event 1283245468 p1time -999 p2time -999 vtx_z 4.60802 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 29992 vec(145) event 1283771274 p1time -999 p2time -999 vtx_z 1.23367 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 30000/156584 Event 1322612422
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 30591 vec(146) event 1445646794 p1time -999 p2time -999 vtx_z -2.2922 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 30765 vec(147) event 1475411395 p1time -999 p2time -999 vtx_z -6.10555 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.131079, t(p2) = -999
+jentry 30781 vec(148) event 1474335963 p1time -0.131079 p2time -999 vtx_z -3.82846 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.16276, t(p2) = -999
+jentry 31035 vec(149) event 1459095877 p1time -0.16276 p2time -999 vtx_z -0.980018 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 31196 vec(150) event 1498090504 p1time -999 p2time -999 vtx_z -1.53285 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.234217, t(p2) = -999
+jentry 31305 vec(151) event 1507194509 p1time 0.234217 p2time -999 vtx_z -4.44451 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 31387 vec(152) event 1513228963 p1time -999 p2time -999 vtx_z -0.649245 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 31519 vec(153) event 1530617819 p1time -999 p2time -999 vtx_z -2.14161 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.100646
+jentry 32167 vec(154) event 2057425871 p1time -999 p2time -0.100646 vtx_z 7.78599 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 32725 vec(155) event 2113919647 p1time -999 p2time -999 vtx_z -1.43287 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 33483 vec(156) event 2256791202 p1time -999 p2time -999 vtx_z 0.378186 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 33899 vec(157) event 2276025529 p1time -999 p2time -999 vtx_z 9.38781 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 34207 vec(158) event 727367029 p1time -999 p2time -999 vtx_z 2.25247 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 34237 vec(159) event 728329671 p1time -999 p2time -999 vtx_z 1.59224 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.318165, t(p2) = -999
+jentry 34623 vec(160) event 2226125063 p1time 0.318165 p2time -999 vtx_z 4.15214 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 35122 vec(161) event 2268055872 p1time -999 p2time -999 vtx_z -6.23271 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 35590 vec(162) event 162581144 p1time -999 p2time -999 vtx_z -1.01276 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.634895, t(p2) = -999
+jentry 36003 vec(163) event 294186082 p1time 0.634895 p2time -999 vtx_z 3.6388 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 36013 vec(164) event 312008876 p1time -999 p2time -999 vtx_z 1.58589 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 36180 vec(165) event 460950057 p1time -999 p2time -999 vtx_z -2.23417 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 36593 vec(166) event 263244888 p1time -999 p2time -999 vtx_z -1.90413 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 36612 vec(167) event 264777926 p1time -999 p2time -999 vtx_z 5.12691 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.271656, t(p2) = -999
+jentry 36679 vec(168) event 291062779 p1time 0.271656 p2time -999 vtx_z 0.213119 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.191629, t(p2) = -999
+jentry 37711 vec(169) event 456859263 p1time 0.191629 p2time -999 vtx_z 1.11459 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 12
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 37755 vec(170) event 473290538 p1time -999 p2time -999 vtx_z 0.0259189 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 39023 vec(171) event 681703673 p1time -999 p2time -999 vtx_z 0.422359 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.622063, t(p2) = 0.059444
+jentry 39597 vec(172) event 832955858 p1time 0.622063 p2time 0.059444 vtx_z 0.200081 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.192438
+jentry 39747 vec(173) event 734151879 p1time -999 p2time -0.192438 vtx_z 1.7799 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+jentry 40000/156584 Event 767614702
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 40416 vec(174) event 825500140 p1time -999 p2time -999 vtx_z -1.57398 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 40436 vec(175) event 828610255 p1time -999 p2time -999 vtx_z -0.202942 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.174385
+jentry 40447 vec(176) event 831638951 p1time -999 p2time -0.174385 vtx_z 5.9752 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 40530 vec(177) event 884220608 p1time -999 p2time -999 vtx_z 3.87056 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.442722, t(p2) = -999
+jentry 40584 vec(178) event 890642080 p1time -0.442722 p2time -999 vtx_z 2.62058 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 40724 vec(179) event 13135017 p1time -999 p2time -999 vtx_z -0.84401 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 40752 vec(180) event 1387999305 p1time -999 p2time -999 vtx_z 4.91211 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 40770 vec(181) event 1490678064 p1time -999 p2time -999 vtx_z -2.22364 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.785912, t(p2) = -999
+jentry 41247 vec(182) event 513035419 p1time 0.785912 p2time -999 vtx_z -2.5489 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 41329 vec(183) event 376665670 p1time -999 p2time -999 vtx_z -1.69152 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.216244, t(p2) = -999
+jentry 41465 vec(184) event 430286565 p1time -0.216244 p2time -999 vtx_z 9.75917 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.180019
+jentry 42399 vec(185) event 903236304 p1time -999 p2time 0.180019 vtx_z -0.375613 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 42428 vec(186) event 911377151 p1time -999 p2time -999 vtx_z -0.228612 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 42794 vec(187) event 946370494 p1time -999 p2time -999 vtx_z -8.74425 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 42975 vec(188) event 988700741 p1time -999 p2time -999 vtx_z 0.44045 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0020932, t(p2) = -999
+jentry 43313 vec(189) event 1027942789 p1time -0.0020932 p2time -999 vtx_z -1.23965 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 43668 vec(190) event 1055767793 p1time -999 p2time -999 vtx_z -1.11504 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 43948 vec(191) event 1110256817 p1time -999 p2time -999 vtx_z -2.5726 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 44414 vec(192) event 1164066625 p1time -999 p2time -999 vtx_z 3.8896 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 44712 vec(193) event 1226839829 p1time -999 p2time -999 vtx_z 2.27615 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 44741 vec(194) event 1230100730 p1time -999 p2time -999 vtx_z 3.35892 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 9
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 45004 vec(195) event 1282842978 p1time -999 p2time -999 vtx_z -2.56577 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 45063 vec(196) event 1375593198 p1time -999 p2time -999 vtx_z -0.921862 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 45600 vec(197) event 1363041186 p1time -999 p2time -999 vtx_z 2.42007 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 46172 vec(198) event 45578126 p1time -999 p2time -999 vtx_z -3.05829 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 46348 vec(199) event 90055989 p1time -999 p2time -999 vtx_z 1.99866 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.102324, t(p2) = -999
+jentry 46531 vec(200) event 129884369 p1time 0.102324 p2time -999 vtx_z 4.00557 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.176361, t(p2) = -999
+jentry 46569 vec(201) event 134112121 p1time -0.176361 p2time -999 vtx_z 1.16558 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 47170 vec(202) event 222341282 p1time -999 p2time -999 vtx_z -3.24848 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 47646 vec(203) event 289789451 p1time -999 p2time -999 vtx_z -1.99875 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 48585 vec(204) event 1452785955 p1time -999 p2time -999 vtx_z 1.73489 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 48630 vec(205) event 1467321101 p1time -999 p2time -999 vtx_z -1.4568 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 48635 vec(206) event 1466644953 p1time -999 p2time -999 vtx_z 4.25347 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 49014 vec(207) event 2162001538 p1time -999 p2time -999 vtx_z 2.78383 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 49025 vec(208) event 2174752813 p1time -999 p2time -999 vtx_z -10.4185 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 49797 vec(209) event 2033528947 p1time -999 p2time -999 vtx_z 4.10731 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+jentry 50000/156584 Event 1083298874
+N(protons) = 1, 1, t(p1) = 0.138044, t(p2) = -999
+jentry 50189 vec(210) event 1411723449 p1time 0.138044 p2time -999 vtx_z 1.23294 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 50753 vec(211) event 836886688 p1time -999 p2time -999 vtx_z 7.58374 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 50972 vec(212) event 1789124520 p1time -999 p2time -999 vtx_z -3.46462 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 51337 vec(213) event 403938982 p1time -999 p2time -999 vtx_z -0.451572 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 51343 vec(214) event 353898530 p1time -999 p2time -999 vtx_z 2.19481 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 51459 vec(215) event 252990423 p1time -999 p2time -999 vtx_z 6.25283 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 51844 vec(216) event 785668640 p1time -999 p2time -999 vtx_z -0.228657 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 51874 vec(217) event 841016163 p1time -999 p2time -999 vtx_z 2.20422 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 51937 vec(218) event 1062210489 p1time -999 p2time -999 vtx_z -0.0476732 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.47084
+jentry 52250 vec(219) event 204445867 p1time -999 p2time 0.47084 vtx_z 5.58033 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 7
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 52340 vec(220) event 290432663 p1time -999 p2time -999 vtx_z 2.25053 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 52388 vec(221) event 284559336 p1time -999 p2time -999 vtx_z -1.51204 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 52491 vec(222) event 2018119934 p1time -999 p2time -999 vtx_z -0.212812 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 52810 vec(223) event 433037444 p1time -999 p2time -999 vtx_z 3.18737 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.253735, t(p2) = -999
+jentry 52910 vec(224) event 465078443 p1time -0.253735 p2time -999 vtx_z 3.57804 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53270 vec(225) event 510806672 p1time -999 p2time -999 vtx_z 2.98869 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53301 vec(226) event 519213505 p1time -999 p2time -999 vtx_z -1.1706 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53344 vec(227) event 532893918 p1time -999 p2time -999 vtx_z 0.465422 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53522 vec(228) event 541864708 p1time -999 p2time -999 vtx_z 1.61508 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53541 vec(229) event 563981266 p1time -999 p2time -999 vtx_z 0.460278 np1 1 np2 1 ntk1vtx 0 goodvtx 12 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53582 vec(230) event 580176443 p1time -999 p2time -999 vtx_z 1.54088 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 53659 vec(231) event 612077246 p1time -999 p2time -999 vtx_z -0.320829 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54076 vec(232) event 664151917 p1time -999 p2time -999 vtx_z 6.15561 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54209 vec(233) event 695938830 p1time -999 p2time -999 vtx_z 0.435702 np1 1 np2 1 ntk1vtx 0 goodvtx 11 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54299 vec(234) event 599835425 p1time -999 p2time -999 vtx_z 7.02586 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54306 vec(235) event 602062312 p1time -999 p2time -999 vtx_z 4.28234 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54469 vec(236) event 592218070 p1time -999 p2time -999 vtx_z -1.49111 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54486 vec(237) event 594456673 p1time -999 p2time -999 vtx_z -4.93925 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.308529, t(p2) = -999
+jentry 54862 vec(238) event 673014539 p1time -0.308529 p2time -999 vtx_z 0.88525 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54886 vec(239) event 772005231 p1time -999 p2time -999 vtx_z 4.46627 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 54992 vec(240) event 684737616 p1time -999 p2time -999 vtx_z 3.40703 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 55202 vec(241) event 730348850 p1time -999 p2time -999 vtx_z 3.62954 np1 1 np2 1 ntk1vtx 0 goodvtx 10 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = 0.137142, t(p2) = -999
+jentry 55522 vec(242) event 869485564 p1time 0.137142 p2time -999 vtx_z 3.7082 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 55683 vec(243) event 1004211120 p1time -999 p2time -999 vtx_z -2.34399 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 55970 vec(244) event 777123109 p1time -999 p2time -999 vtx_z 3.28892 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 56550 vec(245) event 847408699 p1time -999 p2time -999 vtx_z 2.82691 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 56638 vec(246) event 860978356 p1time -999 p2time -999 vtx_z 2.03624 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 56766 vec(247) event 893794567 p1time -999 p2time -999 vtx_z 3.20621 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.15785, t(p2) = -999
+jentry 56816 vec(248) event 898609537 p1time -0.15785 p2time -999 vtx_z 0.860835 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.634109
+jentry 57094 vec(249) event 1066455769 p1time -999 p2time 0.634109 vtx_z 3.79211 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 57344 vec(250) event 1085597522 p1time -999 p2time -999 vtx_z 5.73445 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 57546 vec(251) event 955582221 p1time -999 p2time -999 vtx_z -3.41643 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 57665 vec(252) event 1049383666 p1time -999 p2time -999 vtx_z 4.09923 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 58015 vec(253) event 1007758176 p1time -999 p2time -999 vtx_z 1.71863 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 58428 vec(254) event 1136522720 p1time -999 p2time -999 vtx_z 1.1779 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 58806 vec(255) event 362290589 p1time -999 p2time -999 vtx_z 1.30294 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 59473 vec(256) event 169012098 p1time -999 p2time -999 vtx_z 2.62386 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 60000/156584 Event 573879837
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60130 vec(257) event 279936797 p1time -999 p2time -999 vtx_z -4.38437 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60500 vec(258) event 284954301 p1time -999 p2time -999 vtx_z -7.60474 np1 1 np2 1 ntk1vtx 0 goodvtx 10 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60705 vec(259) event 352381277 p1time -999 p2time -999 vtx_z -5.46619 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60743 vec(260) event 409895990 p1time -999 p2time -999 vtx_z 9.86508 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60805 vec(261) event 375942434 p1time -999 p2time -999 vtx_z -2.31602 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60855 vec(262) event 380726843 p1time -999 p2time -999 vtx_z 1.41083 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 60932 vec(263) event 441551990 p1time -999 p2time -999 vtx_z -3.09445 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.271767, t(p2) = -999
+jentry 61284 vec(264) event 427818518 p1time 0.271767 p2time -999 vtx_z -3.29516 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 61414 vec(265) event 506312548 p1time -999 p2time -999 vtx_z -0.0016517 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.16527, t(p2) = -999
+jentry 61471 vec(266) event 460403548 p1time -0.16527 p2time -999 vtx_z -1.0468 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 61580 vec(267) event 527088946 p1time -999 p2time -999 vtx_z -0.369076 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 62261 vec(268) event 557781547 p1time -999 p2time -999 vtx_z -1.16208 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 62409 vec(269) event 636026126 p1time -999 p2time -999 vtx_z 1.63373 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 62551 vec(270) event 673770980 p1time -999 p2time -999 vtx_z -0.0464404 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 62822 vec(271) event 118315309 p1time -999 p2time -999 vtx_z -0.176499 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.282654, t(p2) = -999
+jentry 63238 vec(272) event 28017247 p1time 0.282654 p2time -999 vtx_z -2.04719 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.510925, t(p2) = -999
+jentry 63410 vec(273) event 88746703 p1time 0.510925 p2time -999 vtx_z 1.51102 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.429245, t(p2) = -999
+jentry 63440 vec(274) event 92352916 p1time -0.429245 p2time -999 vtx_z 4.60659 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 63601 vec(275) event 130340859 p1time -999 p2time -999 vtx_z -0.567238 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 63661 vec(276) event 133706630 p1time -999 p2time -999 vtx_z 0.00274917 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 64059 vec(277) event 228369621 p1time -999 p2time -999 vtx_z 9.05362 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 64193 vec(278) event 113825636 p1time -999 p2time -999 vtx_z 2.56777 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 10
+N(protons) = 1, 1, t(p1) = 0.108631, t(p2) = -999
+jentry 64316 vec(279) event 221989980 p1time 0.108631 p2time -999 vtx_z -4.00695 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 64461 vec(280) event 168398678 p1time -999 p2time -999 vtx_z 4.07396 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 64568 vec(281) event 242186263 p1time -999 p2time -999 vtx_z -1.50049 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 65476 vec(282) event 331057007 p1time -999 p2time -999 vtx_z -2.42217 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 65570 vec(283) event 443694136 p1time -999 p2time -999 vtx_z -1.3566 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 66074 vec(284) event 322892864 p1time -999 p2time -999 vtx_z -0.262086 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 66156 vec(285) event 520341158 p1time -999 p2time -999 vtx_z 4.22072 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 8
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 66399 vec(286) event 559413805 p1time -999 p2time -999 vtx_z -4.07822 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 66462 vec(287) event 350642133 p1time -999 p2time -999 vtx_z -0.686055 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.035244
+jentry 66581 vec(288) event 574453115 p1time -999 p2time 0.035244 vtx_z -3.08348 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 66919 vec(289) event 656539872 p1time -999 p2time -999 vtx_z 1.81983 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = 0.0244741, t(p2) = -999
+jentry 67007 vec(290) event 149294634 p1time 0.0244741 p2time -999 vtx_z 0.179222 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 67089 vec(291) event 336568557 p1time -999 p2time -999 vtx_z -5.24492 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 67235 vec(292) event 744123231 p1time -999 p2time -999 vtx_z 5.8163 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.162884, t(p2) = -999
+jentry 67457 vec(293) event 739195941 p1time 0.162884 p2time -999 vtx_z -0.446187 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.243561
+jentry 67821 vec(294) event 593053376 p1time -999 p2time -0.243561 vtx_z 0.460937 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 68532 vec(295) event 12172192 p1time -999 p2time -999 vtx_z -0.718396 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69027 vec(296) event 362003860 p1time -999 p2time -999 vtx_z 0.905875 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.224752
+jentry 69097 vec(297) event 122132323 p1time -999 p2time -0.224752 vtx_z 4.01986 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69159 vec(298) event 575912988 p1time -999 p2time -999 vtx_z -0.528792 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69316 vec(299) event 374634390 p1time -999 p2time -999 vtx_z 3.24626 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69501 vec(300) event 379581068 p1time -999 p2time -999 vtx_z -0.426032 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69593 vec(301) event 450723616 p1time -999 p2time -999 vtx_z 2.41419 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69609 vec(302) event 452332685 p1time -999 p2time -999 vtx_z -5.14858 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69848 vec(303) event 455754586 p1time -999 p2time -999 vtx_z 8.21932 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 69994 vec(304) event 2749693335 p1time -999 p2time -999 vtx_z 6.47271 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+jentry 70000/156584 Event 2749995734
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70049 vec(305) event 2778667359 p1time -999 p2time -999 vtx_z 1.65547 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70103 vec(306) event 4044888 p1time -999 p2time -999 vtx_z 3.51157 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70107 vec(307) event 3576652 p1time -999 p2time -999 vtx_z -0.702504 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70250 vec(308) event 34328834 p1time -999 p2time -999 vtx_z 3.43438 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70350 vec(309) event 846546146 p1time -999 p2time -999 vtx_z -0.764351 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70411 vec(310) event 209511915 p1time -999 p2time -999 vtx_z -0.0498898 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 70731 vec(311) event 2680806668 p1time -999 p2time -999 vtx_z 4.31606 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71124 vec(312) event 2724889126 p1time -999 p2time -999 vtx_z -4.54098 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71176 vec(313) event 2767637375 p1time -999 p2time -999 vtx_z 4.70934 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71288 vec(314) event 25123870 p1time -999 p2time -999 vtx_z 1.90395 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71416 vec(315) event 45324152 p1time -999 p2time -999 vtx_z 3.33074 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71572 vec(316) event 66810454 p1time -999 p2time -999 vtx_z 1.079 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71687 vec(317) event 100200196 p1time -999 p2time -999 vtx_z 3.33032 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71706 vec(318) event 108247981 p1time -999 p2time -999 vtx_z -5.20294 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 71926 vec(319) event 659645346 p1time -999 p2time -999 vtx_z 2.63754 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 72009 vec(320) event 1011560698 p1time -999 p2time -999 vtx_z -0.707838 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 72740 vec(321) event 188227380 p1time -999 p2time -999 vtx_z 1.85244 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 72874 vec(322) event 932878807 p1time -999 p2time -999 vtx_z 0.0397955 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 73183 vec(323) event 987886270 p1time -999 p2time -999 vtx_z 5.35327 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0303338, t(p2) = -999
+jentry 73313 vec(324) event 1117191584 p1time -0.0303338 p2time -999 vtx_z -1.30535 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 73558 vec(325) event 299615238 p1time -999 p2time -999 vtx_z -2.57385 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 73661 vec(326) event 901435715 p1time -999 p2time -999 vtx_z -2.52597 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 73841 vec(327) event 4472995 p1time -999 p2time -999 vtx_z -3.23237 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.572334, t(p2) = -999
+jentry 73877 vec(328) event 11961748 p1time 0.572334 p2time -999 vtx_z -4.41707 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 74315 vec(329) event 2321178123 p1time -999 p2time -999 vtx_z 2.93677 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 74406 vec(330) event 2330248921 p1time -999 p2time -999 vtx_z -3.42075 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 74429 vec(331) event 2330373736 p1time -999 p2time -999 vtx_z -2.3434 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 74461 vec(332) event 2333622311 p1time -999 p2time -999 vtx_z -2.28751 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.362244
+jentry 74762 vec(333) event 2024985541 p1time -999 p2time 0.362244 vtx_z -5.18656 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 75123 vec(334) event 2206158428 p1time -999 p2time -999 vtx_z 5.19688 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 75208 vec(335) event 2223035933 p1time -999 p2time -999 vtx_z 0.995124 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 75498 vec(336) event 2265709992 p1time -999 p2time -999 vtx_z -6.24312 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 75670 vec(337) event 2282038502 p1time -999 p2time -999 vtx_z 5.48322 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 76353 vec(338) event 2332715868 p1time -999 p2time -999 vtx_z 2.88809 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 76444 vec(339) event 2344594520 p1time -999 p2time -999 vtx_z 1.04353 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.174681
+jentry 76707 vec(340) event 2307915918 p1time -999 p2time -0.174681 vtx_z 0.758713 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 9
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 76817 vec(341) event 1422098957 p1time -999 p2time -999 vtx_z -2.16301 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77146 vec(342) event 2362542269 p1time -999 p2time -999 vtx_z 2.61655 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77281 vec(343) event 2375759428 p1time -999 p2time -999 vtx_z 5.00883 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77297 vec(344) event 2375759550 p1time -999 p2time -999 vtx_z -4.28971 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77633 vec(345) event 2414503186 p1time -999 p2time -999 vtx_z -1.52803 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77672 vec(346) event 2415861791 p1time -999 p2time -999 vtx_z -0.115672 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77687 vec(347) event 2418072847 p1time -999 p2time -999 vtx_z 0.427554 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77767 vec(348) event 2419984891 p1time -999 p2time -999 vtx_z -3.46105 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77897 vec(349) event 2382499191 p1time -999 p2time -999 vtx_z -1.92478 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 77979 vec(350) event 2387750565 p1time -999 p2time -999 vtx_z -0.187346 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.264694, t(p2) = -999
+jentry 78054 vec(351) event 2390792125 p1time 0.264694 p2time -999 vtx_z -5.10771 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 78139 vec(352) event 2396738772 p1time -999 p2time -999 vtx_z -0.725093 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 78281 vec(353) event 2405054243 p1time -999 p2time -999 vtx_z 7.47099 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 78906 vec(354) event 2451025993 p1time -999 p2time -999 vtx_z 5.29703 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.314335, t(p2) = -999
+jentry 79029 vec(355) event 2454936471 p1time 0.314335 p2time -999 vtx_z 3.81817 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.075017, t(p2) = -999
+jentry 79359 vec(356) event 2474655586 p1time 0.075017 p2time -999 vtx_z -7.18823 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.230082, t(p2) = -999
+jentry 79694 vec(357) event 170972896 p1time 0.230082 p2time -999 vtx_z -3.30333 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 79920 vec(358) event 2488452845 p1time -999 p2time -999 vtx_z 4.7429 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 79933 vec(359) event 2489273843 p1time -999 p2time -999 vtx_z 0.670036 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 79962 vec(360) event 2490879095 p1time -999 p2time -999 vtx_z 0.17058 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 7
+jentry 80000/156584 Event 2493171494
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 80177 vec(361) event 2506373081 p1time -999 p2time -999 vtx_z 0.703367 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 80229 vec(362) event 2506669376 p1time -999 p2time -999 vtx_z -3.82138 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 80410 vec(363) event 2515608320 p1time -999 p2time -999 vtx_z -0.491048 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 80489 vec(364) event 2521921726 p1time -999 p2time -999 vtx_z 3.888 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 81094 vec(365) event 2556537248 p1time -999 p2time -999 vtx_z 2.03006 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 81109 vec(366) event 2555065918 p1time -999 p2time -999 vtx_z 6.31408 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.169529, t(p2) = -999
+jentry 81654 vec(367) event 12232584 p1time 0.169529 p2time -999 vtx_z -1.14983 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 81901 vec(368) event 286894341 p1time -999 p2time -999 vtx_z 0.675868 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82014 vec(369) event 37031038 p1time -999 p2time -999 vtx_z 1.3076 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82042 vec(370) event 42506165 p1time -999 p2time -999 vtx_z 6.98948 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.111003
+jentry 82097 vec(371) event 45240753 p1time -999 p2time -0.111003 vtx_z 5.5384 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82161 vec(372) event 59653007 p1time -999 p2time -999 vtx_z -2.59418 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82274 vec(373) event 64456170 p1time -999 p2time -999 vtx_z 7.36052 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82423 vec(374) event 96729607 p1time -999 p2time -999 vtx_z 1.94951 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82547 vec(375) event 106088599 p1time -999 p2time -999 vtx_z -1.88325 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82631 vec(376) event 113452223 p1time -999 p2time -999 vtx_z -1.04429 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 82878 vec(377) event 129177523 p1time -999 p2time -999 vtx_z 6.1973 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 83028 vec(378) event 154205695 p1time -999 p2time -999 vtx_z 1.16537 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 83548 vec(379) event 208475383 p1time -999 p2time -999 vtx_z 5.4373 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 83986 vec(380) event 268371670 p1time -999 p2time -999 vtx_z -4.32782 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 84186 vec(381) event 291288803 p1time -999 p2time -999 vtx_z 5.30007 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 84233 vec(382) event 302560839 p1time -999 p2time -999 vtx_z 4.29885 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 84597 vec(383) event 326714065 p1time -999 p2time -999 vtx_z 1.28548 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 84666 vec(384) event 343659272 p1time -999 p2time -999 vtx_z 4.05907 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 85041 vec(385) event 382204101 p1time -999 p2time -999 vtx_z 4.19519 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.0623112
+jentry 85211 vec(386) event 435218016 p1time -999 p2time -0.0623112 vtx_z -1.4254 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 85317 vec(387) event 426658646 p1time -999 p2time -999 vtx_z 1.40691 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 85328 vec(388) event 430480546 p1time -999 p2time -999 vtx_z 5.23381 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 85425 vec(389) event 1328059783 p1time -999 p2time -999 vtx_z -4.89597 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 85670 vec(390) event 793145931 p1time -999 p2time -999 vtx_z 5.21556 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 85769 vec(391) event 791824922 p1time -999 p2time -999 vtx_z -3.07757 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 86396 vec(392) event 881053085 p1time -999 p2time -999 vtx_z 4.90909 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 86443 vec(393) event 903908925 p1time -999 p2time -999 vtx_z -1.1341 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 86505 vec(394) event 889016054 p1time -999 p2time -999 vtx_z -3.39092 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 86623 vec(395) event 943724649 p1time -999 p2time -999 vtx_z 3.89269 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 86951 vec(396) event 916520778 p1time -999 p2time -999 vtx_z 2.61286 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 86953 vec(397) event 917931715 p1time -999 p2time -999 vtx_z 8.03016 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 87076 vec(398) event 936288317 p1time -999 p2time -999 vtx_z -1.15772 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 87092 vec(399) event 937465537 p1time -999 p2time -999 vtx_z -2.91787 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.041729, t(p2) = -999
+jentry 87226 vec(400) event 1031693695 p1time 0.041729 p2time -999 vtx_z -0.267846 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 87810 vec(401) event 1037375505 p1time -999 p2time -999 vtx_z 7.88407 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.140888
+jentry 87973 vec(402) event 1109732821 p1time -999 p2time -0.140888 vtx_z -0.289331 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 88151 vec(403) event 1131209693 p1time -999 p2time -999 vtx_z 3.49485 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 88378 vec(404) event 1154584372 p1time -999 p2time -999 vtx_z -4.36907 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 88893 vec(405) event 1181263690 p1time -999 p2time -999 vtx_z 1.32109 np1 1 np2 1 ntk1vtx 0 goodvtx 0 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 89035 vec(406) event 1199445123 p1time -999 p2time -999 vtx_z 1.69578 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 89175 vec(407) event 1227944869 p1time -999 p2time -999 vtx_z 1.5371 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 89326 vec(408) event 1237015535 p1time -999 p2time -999 vtx_z 2.64398 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 89559 vec(409) event 18944460 p1time -999 p2time -999 vtx_z 0.656813 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 89730 vec(410) event 1265338373 p1time -999 p2time -999 vtx_z -0.437209 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 89756 vec(411) event 1267811594 p1time -999 p2time -999 vtx_z 3.86171 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 90000/156584 Event 283535127
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 90236 vec(412) event 65779740 p1time -999 p2time -999 vtx_z 5.31161 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 90641 vec(413) event 87951189 p1time -999 p2time -999 vtx_z -0.76543 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.359058, t(p2) = -999
+jentry 90659 vec(414) event 91281137 p1time 0.359058 p2time -999 vtx_z 0.738935 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.392391
+jentry 90694 vec(415) event 94573049 p1time -999 p2time -0.392391 vtx_z 2.92008 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.0212286, t(p2) = -999
+jentry 90769 vec(416) event 125393194 p1time -0.0212286 p2time -999 vtx_z 2.21261 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 90809 vec(417) event 131530680 p1time -999 p2time -999 vtx_z 2.35831 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.270851
+jentry 91026 vec(418) event 161944041 p1time -999 p2time -0.270851 vtx_z -6.29552 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 91285 vec(419) event 192571045 p1time -999 p2time -999 vtx_z -3.25985 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 91620 vec(420) event 250116661 p1time -999 p2time -999 vtx_z -1.18265 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 92001 vec(421) event 331308842 p1time -999 p2time -999 vtx_z 2.52782 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 92119 vec(422) event 360870976 p1time -999 p2time -999 vtx_z -5.80163 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 92574 vec(423) event 696442929 p1time -999 p2time -999 vtx_z 5.25265 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 92747 vec(424) event 686235154 p1time -999 p2time -999 vtx_z -0.790173 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 92985 vec(425) event 729023279 p1time -999 p2time -999 vtx_z -3.18274 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 93311 vec(426) event 768928041 p1time -999 p2time -999 vtx_z -0.410068 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.077322
+jentry 93841 vec(427) event 841057031 p1time -999 p2time -0.077322 vtx_z 3.99136 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 94021 vec(428) event 865275566 p1time -999 p2time -999 vtx_z -1.5403 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 94115 vec(429) event 880264255 p1time -999 p2time -999 vtx_z 1.93852 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 94356 vec(430) event 1103012998 p1time -999 p2time -999 vtx_z -1.73975 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 94420 vec(431) event 890504577 p1time -999 p2time -999 vtx_z 0.920434 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 94904 vec(432) event 961231682 p1time -999 p2time -999 vtx_z 0.35435 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 94942 vec(433) event 965549147 p1time -999 p2time -999 vtx_z -1.90945 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95004 vec(434) event 974284610 p1time -999 p2time -999 vtx_z 2.47136 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95064 vec(435) event 983190622 p1time -999 p2time -999 vtx_z 0.834763 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95174 vec(436) event 997630746 p1time -999 p2time -999 vtx_z -4.85534 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95400 vec(437) event 1032047757 p1time -999 p2time -999 vtx_z -4.9411 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.0509253, t(p2) = -999
+jentry 95402 vec(438) event 1032196408 p1time 0.0509253 p2time -999 vtx_z 0.649446 np1 1 np2 1 ntk1vtx 9 goodvtx 1 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95560 vec(439) event 1053927278 p1time -999 p2time -999 vtx_z 0.894542 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95948 vec(440) event 1125953169 p1time -999 p2time -999 vtx_z 4.66693 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 95953 vec(441) event 1125950184 p1time -999 p2time -999 vtx_z -2.2946 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 96074 vec(442) event 1115826468 p1time -999 p2time -999 vtx_z -1.63995 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 96082 vec(443) event 1114650627 p1time -999 p2time -999 vtx_z -4.95512 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 96655 vec(444) event 1214584085 p1time -999 p2time -999 vtx_z 4.20338 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 96865 vec(445) event 1225236761 p1time -999 p2time -999 vtx_z 0.684229 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 97111 vec(446) event 1265582127 p1time -999 p2time -999 vtx_z 1.38375 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.448029, t(p2) = -999
+jentry 98296 vec(447) event 1448397191 p1time 0.448029 p2time -999 vtx_z 2.01926 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = 0.372219, t(p2) = -999
+jentry 98934 vec(448) event 377485470 p1time 0.372219 p2time -999 vtx_z 2.54306 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 99374 vec(449) event 432510943 p1time -999 p2time -999 vtx_z -3.14493 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 99903 vec(450) event 530042248 p1time -999 p2time -999 vtx_z -2.75814 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.443043
+jentry 99927 vec(451) event 488854182 p1time -999 p2time 0.443043 vtx_z 1.68282 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+jentry 100000/156584 Event 513755687
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 100119 vec(452) event 592584335 p1time -999 p2time -999 vtx_z -1.20411 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 100443 vec(453) event 584174864 p1time -999 p2time -999 vtx_z -2.09608 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 100688 vec(454) event 627190236 p1time -999 p2time -999 vtx_z 1.78933 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 101480 vec(455) event 772398219 p1time -999 p2time -999 vtx_z 0.0470328 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 101495 vec(456) event 802623903 p1time -999 p2time -999 vtx_z 0.585049 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 102194 vec(457) event 848247248 p1time -999 p2time -999 vtx_z 2.07479 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 102323 vec(458) event 928839310 p1time -999 p2time -999 vtx_z -1.39934 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 102874 vec(459) event 53438390 p1time -999 p2time -999 vtx_z -1.95362 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 103023 vec(460) event 391104186 p1time -999 p2time -999 vtx_z 4.64887 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 103055 vec(461) event 27813852 p1time -999 p2time -999 vtx_z -0.0821646 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.198996
+jentry 103152 vec(462) event 72739871 p1time -999 p2time 0.198996 vtx_z 3.94895 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 103778 vec(463) event 107990368 p1time -999 p2time -999 vtx_z 3.56664 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 103872 vec(464) event 181126334 p1time -999 p2time -999 vtx_z -1.38639 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 103885 vec(465) event 185034964 p1time -999 p2time -999 vtx_z 4.10653 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 104288 vec(466) event 549142271 p1time -999 p2time -999 vtx_z 3.97289 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 104869 vec(467) event 673391344 p1time -999 p2time -999 vtx_z -1.00973 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 104980 vec(468) event 466027298 p1time -999 p2time -999 vtx_z -0.665473 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.304764, t(p2) = -999
+jentry 105071 vec(469) event 752539266 p1time -0.304764 p2time -999 vtx_z 1.67587 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 105414 vec(470) event 506901564 p1time -999 p2time -999 vtx_z 0.824636 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 105679 vec(471) event 174628 p1time -999 p2time -999 vtx_z -2.15517 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 105973 vec(472) event 87528310 p1time -999 p2time -999 vtx_z 0.103392 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 106374 vec(473) event 72486919 p1time -999 p2time -999 vtx_z -3.4937 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 106453 vec(474) event 127795318 p1time -999 p2time -999 vtx_z 5.15155 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 106664 vec(475) event 102114995 p1time -999 p2time -999 vtx_z 0.463663 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 106944 vec(476) event 121301279 p1time -999 p2time -999 vtx_z 4.1786 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 107364 vec(477) event 189075768 p1time -999 p2time -999 vtx_z 5.65656 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 107365 vec(478) event 189577573 p1time -999 p2time -999 vtx_z -2.27869 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 107743 vec(479) event 234305836 p1time -999 p2time -999 vtx_z 1.84304 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 108037 vec(480) event 329490877 p1time -999 p2time -999 vtx_z 4.21285 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 108059 vec(481) event 352414994 p1time -999 p2time -999 vtx_z 1.96157 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 108410 vec(482) event 324397867 p1time -999 p2time -999 vtx_z 2.22827 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 108746 vec(483) event 443382979 p1time -999 p2time -999 vtx_z -1.53092 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 108975 vec(484) event 414137164 p1time -999 p2time -999 vtx_z -1.31517 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 109295 vec(485) event 401639631 p1time -999 p2time -999 vtx_z -0.62781 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 109328 vec(486) event 424017817 p1time -999 p2time -999 vtx_z -1.91079 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 109524 vec(487) event 477200439 p1time -999 p2time -999 vtx_z -3.80007 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.250813, t(p2) = -999
+jentry 109546 vec(488) event 485018329 p1time -0.250813 p2time -999 vtx_z -1.75515 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 109727 vec(489) event 597006927 p1time -999 p2time -999 vtx_z 0.370276 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.166512
+jentry 109735 vec(490) event 494805477 p1time -999 p2time -0.166512 vtx_z 4.79216 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.197821, t(p2) = -999
+jentry 109878 vec(491) event 539769748 p1time 0.197821 p2time -999 vtx_z -3.76015 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+jentry 110000/156584 Event 541029773
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 110007 vec(492) event 544218726 p1time -999 p2time -999 vtx_z 2.56488 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.118736, t(p2) = -999
+jentry 110210 vec(493) event 618734847 p1time 0.118736 p2time -999 vtx_z 0.828997 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 110314 vec(494) event 638707297 p1time -999 p2time -999 vtx_z 0.354676 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 110680 vec(495) event 591154037 p1time -999 p2time -999 vtx_z -3.48492 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 111028 vec(496) event 659624303 p1time -999 p2time -999 vtx_z 1.84716 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 111331 vec(497) event 722271386 p1time -999 p2time -999 vtx_z -2.31129 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 111369 vec(498) event 773780350 p1time -999 p2time -999 vtx_z -2.37877 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.0161421, t(p2) = -999
+jentry 112102 vec(499) event 1493556232 p1time -0.0161421 p2time -999 vtx_z -2.82468 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 112238 vec(500) event 1503687872 p1time -999 p2time -999 vtx_z 4.29215 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 112402 vec(501) event 1537252441 p1time -999 p2time -999 vtx_z -2.42573 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 112531 vec(502) event 2234728172 p1time -999 p2time -999 vtx_z 2.12005 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 112793 vec(503) event 1610271313 p1time -999 p2time -999 vtx_z 1.21051 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 112967 vec(504) event 1617065639 p1time -999 p2time -999 vtx_z -1.74166 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 113346 vec(505) event 1669560670 p1time -999 p2time -999 vtx_z 5.69508 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 113456 vec(506) event 1700481024 p1time -999 p2time -999 vtx_z -0.914567 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 113463 vec(507) event 1700448044 p1time -999 p2time -999 vtx_z 1.18585 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 113554 vec(508) event 1720706601 p1time -999 p2time -999 vtx_z 1.80762 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 113622 vec(509) event 1736772858 p1time -999 p2time -999 vtx_z 2.76212 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 113903 vec(510) event 1794228328 p1time -999 p2time -999 vtx_z -2.22057 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 114020 vec(511) event 1832508267 p1time -999 p2time -999 vtx_z -0.269814 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 7
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 114606 vec(512) event 1843053259 p1time -999 p2time -999 vtx_z -1.26162 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 114662 vec(513) event 1860158134 p1time -999 p2time -999 vtx_z 2.78102 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 114842 vec(514) event 1923285942 p1time -999 p2time -999 vtx_z 2.95743 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 114844 vec(515) event 1922145382 p1time -999 p2time -999 vtx_z -1.32678 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 115137 vec(516) event 2028431799 p1time -999 p2time -999 vtx_z 0.160654 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 115371 vec(517) event 1993741797 p1time -999 p2time -999 vtx_z 1.07024 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 115546 vec(518) event 2043066488 p1time -999 p2time -999 vtx_z -1.63385 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 115598 vec(519) event 2082995242 p1time -999 p2time -999 vtx_z -1.58483 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 115715 vec(520) event 2134003775 p1time -999 p2time -999 vtx_z -2.66515 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 115810 vec(521) event 2034087842 p1time -999 p2time -999 vtx_z 3.74481 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 116427 vec(522) event 2218163162 p1time -999 p2time -999 vtx_z -8.23449 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 116634 vec(523) event 2147924020 p1time -999 p2time -999 vtx_z 4.04012 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.371418, t(p2) = -999
+jentry 116989 vec(524) event 2247757132 p1time -0.371418 p2time -999 vtx_z 3.6126 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 117099 vec(525) event 2227702926 p1time -999 p2time -999 vtx_z 3.6318 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 117105 vec(526) event 2226869978 p1time -999 p2time -999 vtx_z -4.66114 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.0632687, t(p2) = -999
+jentry 118147 vec(527) event 571127593 p1time 0.0632687 p2time -999 vtx_z -2.32833 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 119378 vec(528) event 605906990 p1time -999 p2time -999 vtx_z 3.49257 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.271492, t(p2) = -999
+jentry 119499 vec(529) event 611862030 p1time -0.271492 p2time -999 vtx_z -2.04431 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 119791 vec(530) event 624661451 p1time -999 p2time -999 vtx_z 0.154735 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 120000/156584 Event 633122787
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 120144 vec(531) event 641959888 p1time -999 p2time -999 vtx_z 2.62637 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 120309 vec(532) event 652855065 p1time -999 p2time -999 vtx_z 2.66241 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 120605 vec(533) event 683238671 p1time -999 p2time -999 vtx_z 3.08984 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 121277 vec(534) event 666707100 p1time -999 p2time -999 vtx_z -6.05002 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 8
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 121819 vec(535) event 703727548 p1time -999 p2time -999 vtx_z 5.80741 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 122500 vec(536) event 741572984 p1time -999 p2time -999 vtx_z -0.699535 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 122632 vec(537) event 761448893 p1time -999 p2time -999 vtx_z 6.24573 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 122665 vec(538) event 766795841 p1time -999 p2time -999 vtx_z 0.836922 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 122678 vec(539) event 767053266 p1time -999 p2time -999 vtx_z 2.1932 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.223524, t(p2) = -999
+jentry 122698 vec(540) event 723064609 p1time 0.223524 p2time -999 vtx_z 5.40442 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 122780 vec(541) event 740506816 p1time -999 p2time -999 vtx_z 9.05793 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 122946 vec(542) event 750663603 p1time -999 p2time -999 vtx_z 2.54044 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 123025 vec(543) event 756754855 p1time -999 p2time -999 vtx_z 0.162131 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 123968 vec(544) event 783155506 p1time -999 p2time -999 vtx_z -0.0425423 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 124855 vec(545) event 834866547 p1time -999 p2time -999 vtx_z -4.70588 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 124917 vec(546) event 839279099 p1time -999 p2time -999 vtx_z -1.29601 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 124958 vec(547) event 842076805 p1time -999 p2time -999 vtx_z -1.32701 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0201867, t(p2) = -999
+jentry 125231 vec(548) event 815829908 p1time -0.0201867 p2time -999 vtx_z -2.22517 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 125232 vec(549) event 816868247 p1time -999 p2time -999 vtx_z 3.44427 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.46402, t(p2) = -999
+jentry 125549 vec(550) event 889944013 p1time -0.46402 p2time -999 vtx_z 0.21582 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 125563 vec(551) event 889645289 p1time -999 p2time -999 vtx_z 5.47572 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 125648 vec(552) event 905213847 p1time -999 p2time -999 vtx_z 6.17318 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 125781 vec(553) event 862164815 p1time -999 p2time -999 vtx_z 3.19187 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.0172298, t(p2) = -999
+jentry 125883 vec(554) event 883588522 p1time -0.0172298 p2time -999 vtx_z 2.87177 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.483067, t(p2) = -999
+jentry 126180 vec(555) event 956250887 p1time -0.483067 p2time -999 vtx_z 0.951892 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 126515 vec(556) event 885619185 p1time -999 p2time -999 vtx_z 0.530915 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.599098
+jentry 126642 vec(557) event 900367725 p1time -999 p2time 0.599098 vtx_z 2.55115 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 126684 vec(558) event 902544760 p1time -999 p2time -999 vtx_z 0.01669 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = 0.380501
+jentry 126918 vec(559) event 921075283 p1time -999 p2time 0.380501 vtx_z -0.281071 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 126967 vec(560) event 921975095 p1time -999 p2time -999 vtx_z -0.266998 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 127091 vec(561) event 931487705 p1time -999 p2time -999 vtx_z -0.301766 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 127458 vec(562) event 941846906 p1time -999 p2time -999 vtx_z 0.662799 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 127461 vec(563) event 942716002 p1time -999 p2time -999 vtx_z 0.815391 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 127503 vec(564) event 949491538 p1time -999 p2time -999 vtx_z 4.00717 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 9
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 127773 vec(565) event 946847415 p1time -999 p2time -999 vtx_z 6.55083 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 128031 vec(566) event 1004881378 p1time -999 p2time -999 vtx_z -1.4064 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 128151 vec(567) event 1019828068 p1time -999 p2time -999 vtx_z -3.51755 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 128207 vec(568) event 1030234790 p1time -999 p2time -999 vtx_z 0.446608 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 128253 vec(569) event 1030481064 p1time -999 p2time -999 vtx_z 0.503646 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 128797 vec(570) event 956630771 p1time -999 p2time -999 vtx_z 0.508168 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.477882, t(p2) = -999
+jentry 128970 vec(571) event 977240546 p1time 0.477882 p2time -999 vtx_z 3.42427 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 129242 vec(572) event 1014863330 p1time -999 p2time -999 vtx_z 0.141576 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 129416 vec(573) event 1028738177 p1time -999 p2time -999 vtx_z 1.65241 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 129751 vec(574) event 1034225135 p1time -999 p2time -999 vtx_z 0.165196 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.418777
+jentry 129917 vec(575) event 1046981857 p1time -999 p2time -0.418777 vtx_z -1.72846 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 129925 vec(576) event 1046220369 p1time -999 p2time -999 vtx_z 2.33103 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 129957 vec(577) event 1052416443 p1time -999 p2time -999 vtx_z -1.54838 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+jentry 130000/156584 Event 1054356540
+N(protons) = 1, 1, t(p1) = -0.529198, t(p2) = -999
+jentry 130245 vec(578) event 1057443621 p1time -0.529198 p2time -999 vtx_z 3.1371 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 17
+N(protons) = 1, 1, t(p1) = 0.0683708, t(p2) = -999
+jentry 130348 vec(579) event 1106226740 p1time 0.0683708 p2time -999 vtx_z 1.11455 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -0.117094, t(p2) = -999
+jentry 130421 vec(580) event 1114559913 p1time -0.117094 p2time -999 vtx_z 1.82787 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 130592 vec(581) event 1135808706 p1time -999 p2time -999 vtx_z 6.40295 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 130914 vec(582) event 1123009598 p1time -999 p2time -999 vtx_z -4.76354 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.147614, t(p2) = -999
+jentry 131069 vec(583) event 1193389023 p1time 0.147614 p2time -999 vtx_z 5.7298 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 131196 vec(584) event 1216893862 p1time -999 p2time -999 vtx_z 3.19852 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 131695 vec(585) event 1098863233 p1time -999 p2time -999 vtx_z 9.08508 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 131865 vec(586) event 1127088066 p1time -999 p2time -999 vtx_z 3.96404 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 132770 vec(587) event 1158278109 p1time -999 p2time -999 vtx_z -0.175315 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 133397 vec(588) event 1197144904 p1time -999 p2time -999 vtx_z 1.74104 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 133596 vec(589) event 1227290089 p1time -999 p2time -999 vtx_z 3.95305 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.590714, t(p2) = -999
+jentry 134850 vec(590) event 1265502791 p1time -0.590714 p2time -999 vtx_z 0.14273 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.308292, t(p2) = -999
+jentry 135004 vec(591) event 1295622335 p1time 0.308292 p2time -999 vtx_z -2.65696 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -0.197639, t(p2) = -999
+jentry 135057 vec(592) event 1307837526 p1time -0.197639 p2time -999 vtx_z 0.660952 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 135220 vec(593) event 1321105924 p1time -999 p2time -999 vtx_z 2.67239 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -0.022795, t(p2) = -999
+jentry 135261 vec(594) event 1254313640 p1time -0.022795 p2time -999 vtx_z -2.01048 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 135677 vec(595) event 1330216024 p1time -999 p2time -999 vtx_z -3.30554 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 135732 vec(596) event 1345926691 p1time -999 p2time -999 vtx_z 3.2885 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 136148 vec(597) event 1392768431 p1time -999 p2time -999 vtx_z 1.51747 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 136249 vec(598) event 1409251774 p1time -999 p2time -999 vtx_z 3.16764 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 137031 vec(599) event 1401437338 p1time -999 p2time -999 vtx_z -2.33391 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 137248 vec(600) event 137575541 p1time -999 p2time -999 vtx_z 2.59898 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 137380 vec(601) event 177961254 p1time -999 p2time -999 vtx_z 3.36392 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.466198, t(p2) = -999
+jentry 137484 vec(602) event 152957239 p1time 0.466198 p2time -999 vtx_z 1.50172 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 137611 vec(603) event 213126343 p1time -999 p2time -999 vtx_z -2.26065 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 137649 vec(604) event 158213236 p1time -999 p2time -999 vtx_z 1.16257 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 137742 vec(605) event 222077437 p1time -999 p2time -999 vtx_z -5.85614 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 138768 vec(606) event 347422996 p1time -999 p2time -999 vtx_z -0.232366 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 139120 vec(607) event 370466916 p1time -999 p2time -999 vtx_z -3.42978 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 139135 vec(608) event 372652085 p1time -999 p2time -999 vtx_z 4.40595 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 139849 vec(609) event 513890525 p1time -999 p2time -999 vtx_z -5.39957 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -0.303303
+jentry 139870 vec(610) event 486584820 p1time -999 p2time -0.303303 vtx_z -0.244317 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 139981 vec(611) event 531314722 p1time -999 p2time -999 vtx_z -0.0466928 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 140000/156584 Event 554071937
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 140288 vec(612) event 516506748 p1time -999 p2time -999 vtx_z -4.73809 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 140741 vec(613) event 610285278 p1time -999 p2time -999 vtx_z -1.02084 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 140831 vec(614) event 736302238 p1time -999 p2time -999 vtx_z -8.47056 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 140839 vec(615) event 740757248 p1time -999 p2time -999 vtx_z 3.02653 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 140882 vec(616) event 755594717 p1time -999 p2time -999 vtx_z 2.82773 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 140933 vec(617) event 850982210 p1time -999 p2time -999 vtx_z 2.56504 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141018 vec(618) event 630604103 p1time -999 p2time -999 vtx_z -3.16316 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141153 vec(619) event 704832830 p1time -999 p2time -999 vtx_z -0.682832 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141273 vec(620) event 671788756 p1time -999 p2time -999 vtx_z -2.01824 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141342 vec(621) event 680213050 p1time -999 p2time -999 vtx_z -2.85966 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141504 vec(622) event 701592673 p1time -999 p2time -999 vtx_z -0.26557 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141693 vec(623) event 791840166 p1time -999 p2time -999 vtx_z 1.87749 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141793 vec(624) event 749668231 p1time -999 p2time -999 vtx_z 4.86013 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.0955973, t(p2) = -999
+jentry 141841 vec(625) event 761718738 p1time 0.0955973 p2time -999 vtx_z -5.02879 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141853 vec(626) event 762293225 p1time -999 p2time -999 vtx_z -5.5787 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141884 vec(627) event 764940599 p1time -999 p2time -999 vtx_z 2.0704 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 141983 vec(628) event 796349676 p1time -999 p2time -999 vtx_z 1.54226 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142212 vec(629) event 874898078 p1time -999 p2time -999 vtx_z 3.22752 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142301 vec(630) event 838620479 p1time -999 p2time -999 vtx_z 0.303699 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142436 vec(631) event 872026350 p1time -999 p2time -999 vtx_z 1.51479 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142487 vec(632) event 1227410268 p1time -999 p2time -999 vtx_z 3.0344 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142550 vec(633) event 938357985 p1time -999 p2time -999 vtx_z -0.0123234 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142589 vec(634) event 993846420 p1time -999 p2time -999 vtx_z -8.67318 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142600 vec(635) event 1058660023 p1time -999 p2time -999 vtx_z 4.01333 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 142851 vec(636) event 1017148984 p1time -999 p2time -999 vtx_z -5.09394 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143042 vec(637) event 1051832259 p1time -999 p2time -999 vtx_z -1.39265 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143245 vec(638) event 1252327724 p1time -999 p2time -999 vtx_z -0.592148 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143319 vec(639) event 1120788210 p1time -999 p2time -999 vtx_z 2.86321 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143645 vec(640) event 1196472015 p1time -999 p2time -999 vtx_z -1.65522 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143796 vec(641) event 1194166532 p1time -999 p2time -999 vtx_z -1.86049 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143880 vec(642) event 1221450212 p1time -999 p2time -999 vtx_z 0.0444844 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143903 vec(643) event 1237597840 p1time -999 p2time -999 vtx_z -0.588956 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 143958 vec(644) event 1306085471 p1time -999 p2time -999 vtx_z 4.11121 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 144519 vec(645) event 1308151432 p1time -999 p2time -999 vtx_z -3.08663 np1 1 np2 1 ntk1vtx 0 goodvtx 8 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 144638 vec(646) event 1325812184 p1time -999 p2time -999 vtx_z 2.30605 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 145218 vec(647) event 1466652296 p1time -999 p2time -999 vtx_z -1.2533 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 145263 vec(648) event 1413305173 p1time -999 p2time -999 vtx_z -9.04588 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = 0.216846, t(p2) = -999
+jentry 145511 vec(649) event 1493888667 p1time 0.216846 p2time -999 vtx_z -0.918682 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 145760 vec(650) event 1553623655 p1time -999 p2time -999 vtx_z -0.878103 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 146085 vec(651) event 1518425725 p1time -999 p2time -999 vtx_z 7.26512 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 146585 vec(652) event 1612113012 p1time -999 p2time -999 vtx_z 0.737474 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 146836 vec(653) event 1650271304 p1time -999 p2time -999 vtx_z 4.93779 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 146936 vec(654) event 1661164492 p1time -999 p2time -999 vtx_z -2.8892 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.120869, t(p2) = -999
+jentry 147555 vec(655) event 2770599759 p1time 0.120869 p2time -999 vtx_z 3.5785 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 148337 vec(656) event 2809733259 p1time -999 p2time -999 vtx_z 4.15959 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 148426 vec(657) event 177586286 p1time -999 p2time -999 vtx_z -4.77631 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 13
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 148475 vec(658) event 191225386 p1time -999 p2time -999 vtx_z 2.07044 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 148557 vec(659) event 2860713364 p1time -999 p2time -999 vtx_z 1.29657 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.00112797, t(p2) = -999
+jentry 148847 vec(660) event 2888895999 p1time 0.00112797 p2time -999 vtx_z -5.77618 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 8
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 148954 vec(661) event 2928142460 p1time -999 p2time -999 vtx_z -0.590794 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 14
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 149008 vec(662) event 2967964597 p1time -999 p2time -999 vtx_z -4.48444 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 149121 vec(663) event 134260006 p1time -999 p2time -999 vtx_z 3.19232 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 149534 vec(664) event 493986694 p1time -999 p2time -999 vtx_z 1.814 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 149851 vec(665) event 1784616270 p1time -999 p2time -999 vtx_z 3.53636 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+jentry 150000/156584 Event 1810098140
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 151127 vec(666) event 2246251454 p1time -999 p2time -999 vtx_z 2.65599 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 151150 vec(667) event 2350913062 p1time -999 p2time -999 vtx_z 5.80207 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = 0.139746, t(p2) = -999
+jentry 151461 vec(668) event 1913871298 p1time 0.139746 p2time -999 vtx_z -2.85193 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 151877 vec(669) event 2029342170 p1time -999 p2time -999 vtx_z 2.30627 np1 1 np2 1 ntk1vtx 0 goodvtx 2 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152456 vec(670) event 2036239401 p1time -999 p2time -999 vtx_z 1.3668 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152467 vec(671) event 2042997063 p1time -999 p2time -999 vtx_z 1.59122 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152535 vec(672) event 2041323448 p1time -999 p2time -999 vtx_z 1.38172 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 5
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152617 vec(673) event 2088536340 p1time -999 p2time -999 vtx_z 6.02815 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152761 vec(674) event 2052441762 p1time -999 p2time -999 vtx_z -2.03161 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152777 vec(675) event 2055747029 p1time -999 p2time -999 vtx_z 2.55192 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152869 vec(676) event 2075971024 p1time -999 p2time -999 vtx_z 0.607058 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 152965 vec(677) event 2095735532 p1time -999 p2time -999 vtx_z 7.33048 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 153257 vec(678) event 2190947981 p1time -999 p2time -999 vtx_z 3.80906 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 6
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 153734 vec(679) event 2236942259 p1time -999 p2time -999 vtx_z -1.18117 np1 1 np2 1 ntk1vtx 0 goodvtx 7 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 153871 vec(680) event 2255321984 p1time -999 p2time -999 vtx_z -0.54141 np1 1 np2 1 ntk1vtx 0 goodvtx 9 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 154135 vec(681) event 2303815635 p1time -999 p2time -999 vtx_z 4.4313 np1 1 np2 1 ntk1vtx 0 goodvtx 3 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 154789 vec(682) event 2373005091 p1time -999 p2time -999 vtx_z 4.99318 np1 1 np2 1 ntk1vtx 0 goodvtx 5 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 155545 vec(683) event 2484812213 p1time -999 p2time -999 vtx_z -0.0480259 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 155806 vec(684) event 2522633936 p1time -999 p2time -999 vtx_z 5.90661 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 155900 vec(685) event 2533772303 p1time -999 p2time -999 vtx_z 2.38588 np1 1 np2 1 ntk1vtx 0 goodvtx 6 nLiteTracks 4
+N(protons) = 1, 1, t(p1) = -999, t(p2) = -999
+jentry 156574 vec(686) event 2678297519 p1time -999 p2time -999 vtx_z 7.0202 np1 1 np2 1 ntk1vtx 0 goodvtx 4 nLiteTracks 4
+ vec 3.2213e+08 -999 -999 -4.95185 1 1 0
+ vec 2.96011e+08 -999 -999 -0.108984 1 1 0
+ vec 3.20362e+08 -999 -999 -1.28153 1 1 0
+ vec 3.46316e+08 -999 -999 -3.72925 1 1 0
+ vec 2.86847e+09 -999 -999 4.76038 1 1 0
+ vec 1.91105e+07 -999 -999 3.98127 1 1 0
+ vec 2.86627e+07 0.0603971 -999 2.93421 1 1 0
+ vec 4.13232e+07 -999 -999 1.74648 1 1 0
+ vec 1.02307e+08 -999 -999 3.55163 1 1 0
+ vec 1.37604e+08 -999 -999 3.5051 1 1 0
+ vec 3.90632e+08 -999 -999 2.11085 1 1 0
+ vec 3.91016e+08 -999 -999 -1.59164 1 1 0
+ vec 1.61437e+09 -999 -999 5.45761 1 1 0
+ vec 1.89616e+09 -999 -999 11.1279 1 1 0
+ vec 1.5761e+09 0.34919 -999 3.08893 1 1 0
+ vec 1.59709e+09 -999 -999 -5.06715 1 1 0
+ vec 1.58207e+09 -999 0.665619 1.33252 1 1 0
+ vec 1.59203e+09 0.11998 -999 -4.64465 1 1 0
+ vec 1.52252e+09 -999 -999 3.70407 1 1 0
+ vec 1.52231e+09 -999 -999 -3.87096 1 1 0
+ vec 1.53622e+09 -999 -999 7.67804 1 1 0
+ vec 1.53789e+09 -999 -999 3.71953 1 1 0
+ vec 1.55421e+09 -999 -999 0.0659505 1 1 0
+ vec 1.76285e+09 -999 -999 -6.13552 1 1 0
+ vec 1.66281e+09 -999 -999 8.50538 1 1 0
+ vec 1.67765e+09 -999 0.334591 5.23379 1 1 0
+ vec 1.68712e+09 -999 -999 -0.0737716 1 1 0
+ vec 1.92957e+09 -999 -999 -3.26129 1 1 0
+ vec 1.93055e+09 -999 0.0137035 4.44808 1 1 0
+ vec 2.14229e+09 -0.23525 -999 -1.63693 1 1 0
+ vec 1.59778e+09 0.181135 -999 5.3763 1 1 0
+ vec 1.6484e+09 -999 -999 3.71728 1 1 0
+ vec 1.69182e+09 -999 -999 -6.48107 1 1 0
+ vec 1.78187e+09 -999 -999 -4.31727 1 1 0
+ vec 1.63436e+09 -999 -999 0.544314 1 1 0
+ vec 1.65795e+09 -999 -999 -5.72072 1 1 0
+ vec 7.02066e+08 -999 -999 0.124766 1 1 0
+ vec 7.21916e+08 -999 -999 0.43978 1 1 0
+ vec 1.70096e+09 -999 -999 -2.52027 1 1 0
+ vec 1.7053e+09 -999 -999 2.08115 1 1 0
+ vec 1.72222e+09 -999 -999 -6.54127 1 1 0
+ vec 1.72693e+09 -999 -999 -1.04535 1 1 0
+ vec 1.72915e+09 -999 -999 2.0106 1 1 0
+ vec 1.73543e+09 -999 -999 8.63809 1 1 0
+ vec 1.66877e+09 -999 -999 2.59724 1 1 0
+ vec 1.6841e+09 -999 -999 6.26608 1 1 0
+ vec 1.74221e+09 -999 -999 2.1472 1 1 0
+ vec 1.70659e+09 -999 -999 -1.72594 1 1 0
+ vec 2.91372e+08 -999 -999 1.72309 1 1 0
+ vec 1.75634e+09 -999 -999 2.39203 1 1 0
+ vec 1.77323e+09 -999 -999 0.417043 1 1 0
+ vec 1.77478e+09 -999 -999 -6.48807 1 1 0
+ vec 1.78588e+09 -999 -999 -0.907471 1 1 0
+ vec 1.78728e+09 -999 -999 0.850285 1 1 0
+ vec 1.81547e+09 0.0881433 -999 4.38557 1 1 0
+ vec 1.90515e+09 0.199446 -999 8.08569 1 1 0
+ vec 1.87815e+09 -999 -999 -0.235787 1 1 0
+ vec 1.93273e+09 -999 -999 1.08768 1 1 0
+ vec 1.93246e+09 -999 -999 -0.378245 1 1 0
+ vec 2.19442e+09 -999 -999 9.37808 1 1 0
+ vec 2.22746e+09 -999 -999 7.41039 1 1 0
+ vec 2.22814e+09 -999 -999 -0.181511 1 1 0
+ vec 1.89931e+09 -999 -999 3.10013 1 1 0
+ vec 2.14852e+09 -999 -999 -1.45331 1 1 0
+ vec 1.93829e+09 -999 -999 2.48088 1 1 0
+ vec 1.94479e+09 -999 -999 5.62818 1 1 0
+ vec 1.94024e+09 -0.0113038 -999 -2.20912 1 1 0
+ vec 2.00402e+09 -999 -999 3.28324 1 1 0
+ vec 2.00994e+09 -0.0477586 -999 -2.76969 1 1 0
+ vec 2.0254e+09 -999 -999 4.71531 1 1 0
+ vec 1.94744e+09 -999 -999 4.36092 1 1 0
+ vec 1.95639e+09 -999 -999 1.86843 1 1 0
+ vec 1.96187e+09 -999 -999 2.00225 1 1 0
+ vec 1.9537e+09 -999 -999 -5.0262 1 1 0
+ vec 1.98293e+09 -999 -999 3.87778 1 1 0
+ vec 1.31015e+09 0.607491 -999 -3.31052 1 1 0
+ vec 1.31809e+09 -999 -999 1.96165 1 1 0
+ vec 2.40057e+07 -999 -999 -4.3802 1 1 0
+ vec 2.14216e+08 0.135555 -999 4.91961 1 1 0
+ vec 1.55494e+09 -999 -999 2.52209 1 1 0
+ vec 4.04104e+08 -999 -999 -0.353754 1 1 0
+ vec 1.63465e+09 -999 -999 5.05618 1 1 0
+ vec 1.6496e+09 0.409756 -999 3.12294 1 1 0
+ vec 4.38529e+08 -999 -999 -0.671428 1 1 0
+ vec 4.38318e+08 -999 -999 -2.43828 1 1 0
+ vec 1.71471e+09 -999 -999 -6.93171 1 1 0
+ vec 3.74327e+07 -999 -999 2.71616 1 1 0
+ vec 2.975e+07 -999 0.688721 1.27255 1 1 0
+ vec 3.10946e+07 -999 -999 -2.82474 1 1 0
+ vec 1.36849e+08 -999 -999 -1.90202 1 1 0
+ vec 2.65121e+07 -999 -999 0.322205 1 1 0
+ vec 1.86522e+08 -999 -999 -0.647273 1 1 0
+ vec 2.60532e+08 -0.0467844 -999 2.63152 1 1 0
+ vec 9.83703e+07 0.504745 -999 -5.50672 1 1 0
+ vec 5.71001e+07 -999 -999 1.49874 1 1 0
+ vec 4.05418e+08 -999 -999 -5.39252 1 1 0
+ vec 1.19424e+09 -999 -999 2.27049 1 1 0
+ vec 1.22903e+09 -999 -999 2.66043 1 1 0
+ vec 1.24167e+09 -999 -999 -0.448538 1 1 0
+ vec 1.2777e+09 -999 -999 3.50753 1 1 0
+ vec 1.22317e+09 -999 -999 4.75655 1 1 0
+ vec 1.25217e+09 0.398422 -999 0.108371 1 1 0
+ vec 1.29399e+09 -999 -999 0.564999 1 1 0
+ vec 1.45919e+09 -999 -999 0.146707 1 1 0
+ vec 9.55827e+07 -999 -999 -2.05009 1 1 0
+ vec 1.29166e+09 -999 -999 0.861208 1 1 0
+ vec 1.37091e+09 -999 -999 4.98074 1 1 0
+ vec 1.53977e+09 -999 -999 7.25464 1 1 0
+ vec 1.54022e+09 -999 -999 -2.8276 1 1 0
+ vec 1.57021e+09 -999 -0.307941 -2.49839 1 1 0
+ vec 1.55077e+09 -0.624046 -999 -1.90319 1 1 0
+ vec 1.53673e+09 -999 -999 3.89554 1 1 0
+ vec 6.81067e+07 -0.353474 -999 -0.377391 1 1 0
+ vec 9.56029e+07 -999 -999 7.288 1 1 0
+ vec 1.05074e+08 -999 -999 3.47632 1 1 0
+ vec 1.28503e+07 -999 -999 -0.769784 1 1 0
+ vec 1.71447e+07 -999 0.299522 -0.489194 1 1 0
+ vec 2.1337e+07 -0.00492275 -999 1.28679 1 1 0
+ vec 3.96916e+08 -999 -999 4.07146 1 1 0
+ vec 1.1326e+08 -999 -999 4.89161 1 1 0
+ vec 7.39946e+08 -999 -999 -1.96677 1 1 0
+ vec 4.19115e+07 -999 -999 1.91616 1 1 0
+ vec 1.48719e+07 -999 -999 -0.130317 1 1 0
+ vec 7.49523e+07 -999 -999 -2.51433 1 1 0
+ vec 7.49062e+07 -999 -0.516693 1.08678 1 1 0
+ vec 2.95552e+08 -999 -999 5.20738 1 1 0
+ vec 3.00616e+08 -0.268448 -999 2.7587 1 1 0
+ vec 2.52593e+07 -999 -999 4.68649 1 1 0
+ vec 5.7548e+07 -999 -999 -5.5586 1 1 0
+ vec 2.57891e+08 0.0815563 -999 6.49606 1 1 0
+ vec 4.80095e+08 -999 -999 10.1348 1 1 0
+ vec 1.3709e+08 -999 0.175056 -7.43563 1 1 0
+ vec 6.67337e+07 -999 -999 8.87935 1 1 0
+ vec 2.0698e+08 -0.12648 -999 0.948539 1 1 0
+ vec 3.05516e+07 -999 -999 -11.5881 1 1 0
+ vec 1.52047e+08 -999 -999 7.49166 1 1 0
+ vec 1.03812e+08 -999 -999 4.58992 1 1 0
+ vec 1.5909e+08 -999 -999 2.22707 1 1 0
+ vec 1.01583e+08 -999 -999 -3.23559 1 1 0
+ vec 1.8634e+08 -999 -999 3.85629 1 1 0
+ vec 1.09773e+08 -999 -999 -0.468755 1 1 0
+ vec 1.69901e+08 -999 -999 2.54821 1 1 0
+ vec 3.19807e+08 -999 -999 2.29974 1 1 0
+ vec 1.09253e+09 -999 -999 5.74402 1 1 0
+ vec 1.28325e+09 -999 -999 4.60802 1 1 0
+ vec 1.28377e+09 -999 -999 1.23367 1 1 0
+ vec 1.44565e+09 -999 -999 -2.2922 1 1 0
+ vec 1.47541e+09 -999 -999 -6.10555 1 1 0
+ vec 1.47434e+09 -0.131079 -999 -3.82846 1 1 0
+ vec 1.4591e+09 -0.16276 -999 -0.980018 1 1 0
+ vec 1.49809e+09 -999 -999 -1.53285 1 1 0
+ vec 1.50719e+09 0.234217 -999 -4.44451 1 1 0
+ vec 1.51323e+09 -999 -999 -0.649245 1 1 0
+ vec 1.53062e+09 -999 -999 -2.14161 1 1 0
+ vec 2.05743e+09 -999 -0.100646 7.78599 1 1 0
+ vec 2.11392e+09 -999 -999 -1.43287 1 1 0
+ vec 2.25679e+09 -999 -999 0.378186 1 1 0
+ vec 2.27603e+09 -999 -999 9.38781 1 1 0
+ vec 7.27367e+08 -999 -999 2.25247 1 1 0
+ vec 7.2833e+08 -999 -999 1.59224 1 1 0
+ vec 2.22613e+09 0.318165 -999 4.15214 1 1 0
+ vec 2.26806e+09 -999 -999 -6.23271 1 1 0
+ vec 1.62581e+08 -999 -999 -1.01276 1 1 0
+ vec 2.94186e+08 0.634895 -999 3.6388 1 1 0
+ vec 3.12009e+08 -999 -999 1.58589 1 1 0
+ vec 4.6095e+08 -999 -999 -2.23417 1 1 0
+ vec 2.63245e+08 -999 -999 -1.90413 1 1 0
+ vec 2.64778e+08 -999 -999 5.12691 1 1 0
+ vec 2.91063e+08 0.271656 -999 0.213119 1 1 0
+ vec 4.56859e+08 0.191629 -999 1.11459 1 1 0
+ vec 4.73291e+08 -999 -999 0.0259189 1 1 0
+ vec 6.81704e+08 -999 -999 0.422359 1 1 0
+ vec 8.32956e+08 0.622063 0.059444 0.200081 1 1 0
+ vec 7.34152e+08 -999 -0.192438 1.7799 1 1 0
+ vec 8.255e+08 -999 -999 -1.57398 1 1 0
+ vec 8.2861e+08 -999 -999 -0.202942 1 1 0
+ vec 8.31639e+08 -999 -0.174385 5.9752 1 1 0
+ vec 8.84221e+08 -999 -999 3.87056 1 1 0
+ vec 8.90642e+08 -0.442722 -999 2.62058 1 1 0
+ vec 1.3135e+07 -999 -999 -0.84401 1 1 0
+ vec 1.388e+09 -999 -999 4.91211 1 1 0
+ vec 1.49068e+09 -999 -999 -2.22364 1 1 0
+ vec 5.13035e+08 0.785912 -999 -2.5489 1 1 0
+ vec 3.76666e+08 -999 -999 -1.69152 1 1 0
+ vec 4.30287e+08 -0.216244 -999 9.75917 1 1 0
+ vec 9.03236e+08 -999 0.180019 -0.375613 1 1 0
+ vec 9.11377e+08 -999 -999 -0.228612 1 1 0
+ vec 9.4637e+08 -999 -999 -8.74425 1 1 0
+ vec 9.88701e+08 -999 -999 0.44045 1 1 0
+ vec 1.02794e+09 -0.0020932 -999 -1.23965 1 1 0
+ vec 1.05577e+09 -999 -999 -1.11504 1 1 0
+ vec 1.11026e+09 -999 -999 -2.5726 1 1 0
+ vec 1.16407e+09 -999 -999 3.8896 1 1 0
+ vec 1.22684e+09 -999 -999 2.27615 1 1 0
+ vec 1.2301e+09 -999 -999 3.35892 1 1 0
+ vec 1.28284e+09 -999 -999 -2.56577 1 1 0
+ vec 1.37559e+09 -999 -999 -0.921862 1 1 0
+ vec 1.36304e+09 -999 -999 2.42007 1 1 0
+ vec 4.55781e+07 -999 -999 -3.05829 1 1 0
+ vec 9.0056e+07 -999 -999 1.99866 1 1 0
+ vec 1.29884e+08 0.102324 -999 4.00557 1 1 0
+ vec 1.34112e+08 -0.176361 -999 1.16558 1 1 0
+ vec 2.22341e+08 -999 -999 -3.24848 1 1 0
+ vec 2.89789e+08 -999 -999 -1.99875 1 1 0
+ vec 1.45279e+09 -999 -999 1.73489 1 1 0
+ vec 1.46732e+09 -999 -999 -1.4568 1 1 0
+ vec 1.46664e+09 -999 -999 4.25347 1 1 0
+ vec 2.162e+09 -999 -999 2.78383 1 1 0
+ vec 2.17475e+09 -999 -999 -10.4185 1 1 0
+ vec 2.03353e+09 -999 -999 4.10731 1 1 0
+ vec 1.41172e+09 0.138044 -999 1.23294 1 1 0
+ vec 8.36887e+08 -999 -999 7.58374 1 1 0
+ vec 1.78912e+09 -999 -999 -3.46462 1 1 0
+ vec 4.03939e+08 -999 -999 -0.451572 1 1 0
+ vec 3.53899e+08 -999 -999 2.19481 1 1 0
+ vec 2.5299e+08 -999 -999 6.25283 1 1 0
+ vec 7.85669e+08 -999 -999 -0.228657 1 1 0
+ vec 8.41016e+08 -999 -999 2.20422 1 1 0
+ vec 1.06221e+09 -999 -999 -0.0476732 1 1 0
+ vec 2.04446e+08 -999 0.47084 5.58033 1 1 0
+ vec 2.90433e+08 -999 -999 2.25053 1 1 0
+ vec 2.84559e+08 -999 -999 -1.51204 1 1 0
+ vec 2.01812e+09 -999 -999 -0.212812 1 1 0
+ vec 4.33037e+08 -999 -999 3.18737 1 1 0
+ vec 4.65078e+08 -0.253735 -999 3.57804 1 1 0
+ vec 5.10807e+08 -999 -999 2.98869 1 1 0
+ vec 5.19214e+08 -999 -999 -1.1706 1 1 0
+ vec 5.32894e+08 -999 -999 0.465422 1 1 0
+ vec 5.41865e+08 -999 -999 1.61508 1 1 0
+ vec 5.63981e+08 -999 -999 0.460278 1 1 0
+ vec 5.80176e+08 -999 -999 1.54088 1 1 0
+ vec 6.12077e+08 -999 -999 -0.320829 1 1 0
+ vec 6.64152e+08 -999 -999 6.15561 1 1 0
+ vec 6.95939e+08 -999 -999 0.435702 1 1 0
+ vec 5.99835e+08 -999 -999 7.02586 1 1 0
+ vec 6.02062e+08 -999 -999 4.28234 1 1 0
+ vec 5.92218e+08 -999 -999 -1.49111 1 1 0
+ vec 5.94457e+08 -999 -999 -4.93925 1 1 0
+ vec 6.73015e+08 -0.308529 -999 0.88525 1 1 0
+ vec 7.72005e+08 -999 -999 4.46627 1 1 0
+ vec 6.84738e+08 -999 -999 3.40703 1 1 0
+ vec 7.30349e+08 -999 -999 3.62954 1 1 0
+ vec 8.69486e+08 0.137142 -999 3.7082 1 1 0
+ vec 1.00421e+09 -999 -999 -2.34399 1 1 0
+ vec 7.77123e+08 -999 -999 3.28892 1 1 0
+ vec 8.47409e+08 -999 -999 2.82691 1 1 0
+ vec 8.60978e+08 -999 -999 2.03624 1 1 0
+ vec 8.93795e+08 -999 -999 3.20621 1 1 0
+ vec 8.9861e+08 -0.15785 -999 0.860835 1 1 0
+ vec 1.06646e+09 -999 0.634109 3.79211 1 1 0
+ vec 1.0856e+09 -999 -999 5.73445 1 1 0
+ vec 9.55582e+08 -999 -999 -3.41643 1 1 0
+ vec 1.04938e+09 -999 -999 4.09923 1 1 0
+ vec 1.00776e+09 -999 -999 1.71863 1 1 0
+ vec 1.13652e+09 -999 -999 1.1779 1 1 0
+ vec 3.62291e+08 -999 -999 1.30294 1 1 0
+ vec 1.69012e+08 -999 -999 2.62386 1 1 0
+ vec 2.79937e+08 -999 -999 -4.38437 1 1 0
+ vec 2.84954e+08 -999 -999 -7.60474 1 1 0
+ vec 3.52381e+08 -999 -999 -5.46619 1 1 0
+ vec 4.09896e+08 -999 -999 9.86508 1 1 0
+ vec 3.75942e+08 -999 -999 -2.31602 1 1 0
+ vec 3.80727e+08 -999 -999 1.41083 1 1 0
+ vec 4.41552e+08 -999 -999 -3.09445 1 1 0
+ vec 4.27819e+08 0.271767 -999 -3.29516 1 1 0
+ vec 5.06313e+08 -999 -999 -0.0016517 1 1 0
+ vec 4.60404e+08 -0.16527 -999 -1.0468 1 1 0
+ vec 5.27089e+08 -999 -999 -0.369076 1 1 0
+ vec 5.57782e+08 -999 -999 -1.16208 1 1 0
+ vec 6.36026e+08 -999 -999 1.63373 1 1 0
+ vec 6.73771e+08 -999 -999 -0.0464404 1 1 0
+ vec 1.18315e+08 -999 -999 -0.176499 1 1 0
+ vec 2.80172e+07 0.282654 -999 -2.04719 1 1 0
+ vec 8.87467e+07 0.510925 -999 1.51102 1 1 0
+ vec 9.23529e+07 -0.429245 -999 4.60659 1 1 0
+ vec 1.30341e+08 -999 -999 -0.567238 1 1 0
+ vec 1.33707e+08 -999 -999 0.00274917 1 1 0
+ vec 2.2837e+08 -999 -999 9.05362 1 1 0
+ vec 1.13826e+08 -999 -999 2.56777 1 1 0
+ vec 2.2199e+08 0.108631 -999 -4.00695 1 1 0
+ vec 1.68399e+08 -999 -999 4.07396 1 1 0
+ vec 2.42186e+08 -999 -999 -1.50049 1 1 0
+ vec 3.31057e+08 -999 -999 -2.42217 1 1 0
+ vec 4.43694e+08 -999 -999 -1.3566 1 1 0
+ vec 3.22893e+08 -999 -999 -0.262086 1 1 0
+ vec 5.20341e+08 -999 -999 4.22072 1 1 0
+ vec 5.59414e+08 -999 -999 -4.07822 1 1 0
+ vec 3.50642e+08 -999 -999 -0.686055 1 1 0
+ vec 5.74453e+08 -999 0.035244 -3.08348 1 1 0
+ vec 6.5654e+08 -999 -999 1.81983 1 1 0
+ vec 1.49295e+08 0.0244741 -999 0.179222 1 1 0
+ vec 3.36569e+08 -999 -999 -5.24492 1 1 0
+ vec 7.44123e+08 -999 -999 5.8163 1 1 0
+ vec 7.39196e+08 0.162884 -999 -0.446187 1 1 0
+ vec 5.93053e+08 -999 -0.243561 0.460937 1 1 0
+ vec 1.21722e+07 -999 -999 -0.718396 1 1 0
+ vec 3.62004e+08 -999 -999 0.905875 1 1 0
+ vec 1.22132e+08 -999 -0.224752 4.01986 1 1 0
+ vec 5.75913e+08 -999 -999 -0.528792 1 1 0
+ vec 3.74634e+08 -999 -999 3.24626 1 1 0
+ vec 3.79581e+08 -999 -999 -0.426032 1 1 0
+ vec 4.50724e+08 -999 -999 2.41419 1 1 0
+ vec 4.52333e+08 -999 -999 -5.14858 1 1 0
+ vec 4.55755e+08 -999 -999 8.21932 1 1 0
+ vec 2.74969e+09 -999 -999 6.47271 1 1 0
+ vec 2.77867e+09 -999 -999 1.65547 1 1 0
+ vec 4.04489e+06 -999 -999 3.51157 1 1 0
+ vec 3.57665e+06 -999 -999 -0.702504 1 1 0
+ vec 3.43288e+07 -999 -999 3.43438 1 1 0
+ vec 8.46546e+08 -999 -999 -0.764351 1 1 0
+ vec 2.09512e+08 -999 -999 -0.0498898 1 1 0
+ vec 2.68081e+09 -999 -999 4.31606 1 1 0
+ vec 2.72489e+09 -999 -999 -4.54098 1 1 0
+ vec 2.76764e+09 -999 -999 4.70934 1 1 0
+ vec 2.51239e+07 -999 -999 1.90395 1 1 0
+ vec 4.53242e+07 -999 -999 3.33074 1 1 0
+ vec 6.68105e+07 -999 -999 1.079 1 1 0
+ vec 1.002e+08 -999 -999 3.33032 1 1 0
+ vec 1.08248e+08 -999 -999 -5.20294 1 1 0
+ vec 6.59645e+08 -999 -999 2.63754 1 1 0
+ vec 1.01156e+09 -999 -999 -0.707838 1 1 0
+ vec 1.88227e+08 -999 -999 1.85244 1 1 0
+ vec 9.32879e+08 -999 -999 0.0397955 1 1 0
+ vec 9.87886e+08 -999 -999 5.35327 1 1 0
+ vec 1.11719e+09 -0.0303338 -999 -1.30535 1 1 0
+ vec 2.99615e+08 -999 -999 -2.57385 1 1 0
+ vec 9.01436e+08 -999 -999 -2.52597 1 1 0
+ vec 4.473e+06 -999 -999 -3.23237 1 1 0
+ vec 1.19617e+07 0.572334 -999 -4.41707 1 1 0
+ vec 2.32118e+09 -999 -999 2.93677 1 1 0
+ vec 2.33025e+09 -999 -999 -3.42075 1 1 0
+ vec 2.33037e+09 -999 -999 -2.3434 1 1 0
+ vec 2.33362e+09 -999 -999 -2.28751 1 1 0
+ vec 2.02499e+09 -999 0.362244 -5.18656 1 1 0
+ vec 2.20616e+09 -999 -999 5.19688 1 1 0
+ vec 2.22304e+09 -999 -999 0.995124 1 1 0
+ vec 2.26571e+09 -999 -999 -6.24312 1 1 0
+ vec 2.28204e+09 -999 -999 5.48322 1 1 0
+ vec 2.33272e+09 -999 -999 2.88809 1 1 0
+ vec 2.34459e+09 -999 -999 1.04353 1 1 0
+ vec 2.30792e+09 -999 -0.174681 0.758713 1 1 0
+ vec 1.4221e+09 -999 -999 -2.16301 1 1 0
+ vec 2.36254e+09 -999 -999 2.61655 1 1 0
+ vec 2.37576e+09 -999 -999 5.00883 1 1 0
+ vec 2.37576e+09 -999 -999 -4.28971 1 1 0
+ vec 2.4145e+09 -999 -999 -1.52803 1 1 0
+ vec 2.41586e+09 -999 -999 -0.115672 1 1 0
+ vec 2.41807e+09 -999 -999 0.427554 1 1 0
+ vec 2.41998e+09 -999 -999 -3.46105 1 1 0
+ vec 2.3825e+09 -999 -999 -1.92478 1 1 0
+ vec 2.38775e+09 -999 -999 -0.187346 1 1 0
+ vec 2.39079e+09 0.264694 -999 -5.10771 1 1 0
+ vec 2.39674e+09 -999 -999 -0.725093 1 1 0
+ vec 2.40505e+09 -999 -999 7.47099 1 1 0
+ vec 2.45103e+09 -999 -999 5.29703 1 1 0
+ vec 2.45494e+09 0.314335 -999 3.81817 1 1 0
+ vec 2.47466e+09 0.075017 -999 -7.18823 1 1 0
+ vec 1.70973e+08 0.230082 -999 -3.30333 1 1 0
+ vec 2.48845e+09 -999 -999 4.7429 1 1 0
+ vec 2.48927e+09 -999 -999 0.670036 1 1 0
+ vec 2.49088e+09 -999 -999 0.17058 1 1 0
+ vec 2.50637e+09 -999 -999 0.703367 1 1 0
+ vec 2.50667e+09 -999 -999 -3.82138 1 1 0
+ vec 2.51561e+09 -999 -999 -0.491048 1 1 0
+ vec 2.52192e+09 -999 -999 3.888 1 1 0
+ vec 2.55654e+09 -999 -999 2.03006 1 1 0
+ vec 2.55507e+09 -999 -999 6.31408 1 1 0
+ vec 1.22326e+07 0.169529 -999 -1.14983 1 1 0
+ vec 2.86894e+08 -999 -999 0.675868 1 1 0
+ vec 3.7031e+07 -999 -999 1.3076 1 1 0
+ vec 4.25062e+07 -999 -999 6.98948 1 1 0
+ vec 4.52408e+07 -999 -0.111003 5.5384 1 1 0
+ vec 5.9653e+07 -999 -999 -2.59418 1 1 0
+ vec 6.44562e+07 -999 -999 7.36052 1 1 0
+ vec 9.67296e+07 -999 -999 1.94951 1 1 0
+ vec 1.06089e+08 -999 -999 -1.88325 1 1 0
+ vec 1.13452e+08 -999 -999 -1.04429 1 1 0
+ vec 1.29178e+08 -999 -999 6.1973 1 1 0
+ vec 1.54206e+08 -999 -999 1.16537 1 1 0
+ vec 2.08475e+08 -999 -999 5.4373 1 1 0
+ vec 2.68372e+08 -999 -999 -4.32782 1 1 0
+ vec 2.91289e+08 -999 -999 5.30007 1 1 0
+ vec 3.02561e+08 -999 -999 4.29885 1 1 0
+ vec 3.26714e+08 -999 -999 1.28548 1 1 0
+ vec 3.43659e+08 -999 -999 4.05907 1 1 0
+ vec 3.82204e+08 -999 -999 4.19519 1 1 0
+ vec 4.35218e+08 -999 -0.0623112 -1.4254 1 1 0
+ vec 4.26659e+08 -999 -999 1.40691 1 1 0
+ vec 4.30481e+08 -999 -999 5.23381 1 1 0
+ vec 1.32806e+09 -999 -999 -4.89597 1 1 0
+ vec 7.93146e+08 -999 -999 5.21556 1 1 0
+ vec 7.91825e+08 -999 -999 -3.07757 1 1 0
+ vec 8.81053e+08 -999 -999 4.90909 1 1 0
+ vec 9.03909e+08 -999 -999 -1.1341 1 1 0
+ vec 8.89016e+08 -999 -999 -3.39092 1 1 0
+ vec 9.43725e+08 -999 -999 3.89269 1 1 0
+ vec 9.16521e+08 -999 -999 2.61286 1 1 0
+ vec 9.17932e+08 -999 -999 8.03016 1 1 0
+ vec 9.36288e+08 -999 -999 -1.15772 1 1 0
+ vec 9.37466e+08 -999 -999 -2.91787 1 1 0
+ vec 1.03169e+09 0.041729 -999 -0.267846 1 1 0
+ vec 1.03738e+09 -999 -999 7.88407 1 1 0
+ vec 1.10973e+09 -999 -0.140888 -0.289331 1 1 0
+ vec 1.13121e+09 -999 -999 3.49485 1 1 0
+ vec 1.15458e+09 -999 -999 -4.36907 1 1 0
+ vec 1.18126e+09 -999 -999 1.32109 1 1 0
+ vec 1.19945e+09 -999 -999 1.69578 1 1 0
+ vec 1.22794e+09 -999 -999 1.5371 1 1 0
+ vec 1.23702e+09 -999 -999 2.64398 1 1 0
+ vec 1.89445e+07 -999 -999 0.656813 1 1 0
+ vec 1.26534e+09 -999 -999 -0.437209 1 1 0
+ vec 1.26781e+09 -999 -999 3.86171 1 1 0
+ vec 6.57797e+07 -999 -999 5.31161 1 1 0
+ vec 8.79512e+07 -999 -999 -0.76543 1 1 0
+ vec 9.12811e+07 0.359058 -999 0.738935 1 1 0
+ vec 9.4573e+07 -999 -0.392391 2.92008 1 1 0
+ vec 1.25393e+08 -0.0212286 -999 2.21261 1 1 0
+ vec 1.31531e+08 -999 -999 2.35831 1 1 0
+ vec 1.61944e+08 -999 -0.270851 -6.29552 1 1 0
+ vec 1.92571e+08 -999 -999 -3.25985 1 1 0
+ vec 2.50117e+08 -999 -999 -1.18265 1 1 0
+ vec 3.31309e+08 -999 -999 2.52782 1 1 0
+ vec 3.60871e+08 -999 -999 -5.80163 1 1 0
+ vec 6.96443e+08 -999 -999 5.25265 1 1 0
+ vec 6.86235e+08 -999 -999 -0.790173 1 1 0
+ vec 7.29023e+08 -999 -999 -3.18274 1 1 0
+ vec 7.68928e+08 -999 -999 -0.410068 1 1 0
+ vec 8.41057e+08 -999 -0.077322 3.99136 1 1 0
+ vec 8.65276e+08 -999 -999 -1.5403 1 1 0
+ vec 8.80264e+08 -999 -999 1.93852 1 1 0
+ vec 1.10301e+09 -999 -999 -1.73975 1 1 0
+ vec 8.90505e+08 -999 -999 0.920434 1 1 0
+ vec 9.61232e+08 -999 -999 0.35435 1 1 0
+ vec 9.65549e+08 -999 -999 -1.90945 1 1 0
+ vec 9.74285e+08 -999 -999 2.47136 1 1 0
+ vec 9.83191e+08 -999 -999 0.834763 1 1 0
+ vec 9.97631e+08 -999 -999 -4.85534 1 1 0
+ vec 1.03205e+09 -999 -999 -4.9411 1 1 0
+ vec 1.0322e+09 0.0509253 -999 0.649446 1 1 9
+ vec 1.05393e+09 -999 -999 0.894542 1 1 0
+ vec 1.12595e+09 -999 -999 4.66693 1 1 0
+ vec 1.12595e+09 -999 -999 -2.2946 1 1 0
+ vec 1.11583e+09 -999 -999 -1.63995 1 1 0
+ vec 1.11465e+09 -999 -999 -4.95512 1 1 0
+ vec 1.21458e+09 -999 -999 4.20338 1 1 0
+ vec 1.22524e+09 -999 -999 0.684229 1 1 0
+ vec 1.26558e+09 -999 -999 1.38375 1 1 0
+ vec 1.4484e+09 0.448029 -999 2.01926 1 1 0
+ vec 3.77485e+08 0.372219 -999 2.54306 1 1 0
+ vec 4.32511e+08 -999 -999 -3.14493 1 1 0
+ vec 5.30042e+08 -999 -999 -2.75814 1 1 0
+ vec 4.88854e+08 -999 0.443043 1.68282 1 1 0
+ vec 5.92584e+08 -999 -999 -1.20411 1 1 0
+ vec 5.84175e+08 -999 -999 -2.09608 1 1 0
+ vec 6.2719e+08 -999 -999 1.78933 1 1 0
+ vec 7.72398e+08 -999 -999 0.0470328 1 1 0
+ vec 8.02624e+08 -999 -999 0.585049 1 1 0
+ vec 8.48247e+08 -999 -999 2.07479 1 1 0
+ vec 9.28839e+08 -999 -999 -1.39934 1 1 0
+ vec 5.34384e+07 -999 -999 -1.95362 1 1 0
+ vec 3.91104e+08 -999 -999 4.64887 1 1 0
+ vec 2.78139e+07 -999 -999 -0.0821646 1 1 0
+ vec 7.27399e+07 -999 0.198996 3.94895 1 1 0
+ vec 1.0799e+08 -999 -999 3.56664 1 1 0
+ vec 1.81126e+08 -999 -999 -1.38639 1 1 0
+ vec 1.85035e+08 -999 -999 4.10653 1 1 0
+ vec 5.49142e+08 -999 -999 3.97289 1 1 0
+ vec 6.73391e+08 -999 -999 -1.00973 1 1 0
+ vec 4.66027e+08 -999 -999 -0.665473 1 1 0
+ vec 7.52539e+08 -0.304764 -999 1.67587 1 1 0
+ vec 5.06902e+08 -999 -999 0.824636 1 1 0
+ vec 174628 -999 -999 -2.15517 1 1 0
+ vec 8.75283e+07 -999 -999 0.103392 1 1 0
+ vec 7.24869e+07 -999 -999 -3.4937 1 1 0
+ vec 1.27795e+08 -999 -999 5.15155 1 1 0
+ vec 1.02115e+08 -999 -999 0.463663 1 1 0
+ vec 1.21301e+08 -999 -999 4.1786 1 1 0
+ vec 1.89076e+08 -999 -999 5.65656 1 1 0
+ vec 1.89578e+08 -999 -999 -2.27869 1 1 0
+ vec 2.34306e+08 -999 -999 1.84304 1 1 0
+ vec 3.29491e+08 -999 -999 4.21285 1 1 0
+ vec 3.52415e+08 -999 -999 1.96157 1 1 0
+ vec 3.24398e+08 -999 -999 2.22827 1 1 0
+ vec 4.43383e+08 -999 -999 -1.53092 1 1 0
+ vec 4.14137e+08 -999 -999 -1.31517 1 1 0
+ vec 4.0164e+08 -999 -999 -0.62781 1 1 0
+ vec 4.24018e+08 -999 -999 -1.91079 1 1 0
+ vec 4.772e+08 -999 -999 -3.80007 1 1 0
+ vec 4.85018e+08 -0.250813 -999 -1.75515 1 1 0
+ vec 5.97007e+08 -999 -999 0.370276 1 1 0
+ vec 4.94805e+08 -999 -0.166512 4.79216 1 1 0
+ vec 5.3977e+08 0.197821 -999 -3.76015 1 1 0
+ vec 5.44219e+08 -999 -999 2.56488 1 1 0
+ vec 6.18735e+08 0.118736 -999 0.828997 1 1 0
+ vec 6.38707e+08 -999 -999 0.354676 1 1 0
+ vec 5.91154e+08 -999 -999 -3.48492 1 1 0
+ vec 6.59624e+08 -999 -999 1.84716 1 1 0
+ vec 7.22271e+08 -999 -999 -2.31129 1 1 0
+ vec 7.7378e+08 -999 -999 -2.37877 1 1 0
+ vec 1.49356e+09 -0.0161421 -999 -2.82468 1 1 0
+ vec 1.50369e+09 -999 -999 4.29215 1 1 0
+ vec 1.53725e+09 -999 -999 -2.42573 1 1 0
+ vec 2.23473e+09 -999 -999 2.12005 1 1 0
+ vec 1.61027e+09 -999 -999 1.21051 1 1 0
+ vec 1.61707e+09 -999 -999 -1.74166 1 1 0
+ vec 1.66956e+09 -999 -999 5.69508 1 1 0
+ vec 1.70048e+09 -999 -999 -0.914567 1 1 0
+ vec 1.70045e+09 -999 -999 1.18585 1 1 0
+ vec 1.72071e+09 -999 -999 1.80762 1 1 0
+ vec 1.73677e+09 -999 -999 2.76212 1 1 0
+ vec 1.79423e+09 -999 -999 -2.22057 1 1 0
+ vec 1.83251e+09 -999 -999 -0.269814 1 1 0
+ vec 1.84305e+09 -999 -999 -1.26162 1 1 0
+ vec 1.86016e+09 -999 -999 2.78102 1 1 0
+ vec 1.92329e+09 -999 -999 2.95743 1 1 0
+ vec 1.92215e+09 -999 -999 -1.32678 1 1 0
+ vec 2.02843e+09 -999 -999 0.160654 1 1 0
+ vec 1.99374e+09 -999 -999 1.07024 1 1 0
+ vec 2.04307e+09 -999 -999 -1.63385 1 1 0
+ vec 2.083e+09 -999 -999 -1.58483 1 1 0
+ vec 2.134e+09 -999 -999 -2.66515 1 1 0
+ vec 2.03409e+09 -999 -999 3.74481 1 1 0
+ vec 2.21816e+09 -999 -999 -8.23449 1 1 0
+ vec 2.14792e+09 -999 -999 4.04012 1 1 0
+ vec 2.24776e+09 -0.371418 -999 3.6126 1 1 0
+ vec 2.2277e+09 -999 -999 3.6318 1 1 0
+ vec 2.22687e+09 -999 -999 -4.66114 1 1 0
+ vec 5.71128e+08 0.0632687 -999 -2.32833 1 1 0
+ vec 6.05907e+08 -999 -999 3.49257 1 1 0
+ vec 6.11862e+08 -0.271492 -999 -2.04431 1 1 0
+ vec 6.24661e+08 -999 -999 0.154735 1 1 0
+ vec 6.4196e+08 -999 -999 2.62637 1 1 0
+ vec 6.52855e+08 -999 -999 2.66241 1 1 0
+ vec 6.83239e+08 -999 -999 3.08984 1 1 0
+ vec 6.66707e+08 -999 -999 -6.05002 1 1 0
+ vec 7.03728e+08 -999 -999 5.80741 1 1 0
+ vec 7.41573e+08 -999 -999 -0.699535 1 1 0
+ vec 7.61449e+08 -999 -999 6.24573 1 1 0
+ vec 7.66796e+08 -999 -999 0.836922 1 1 0
+ vec 7.67053e+08 -999 -999 2.1932 1 1 0
+ vec 7.23065e+08 0.223524 -999 5.40442 1 1 0
+ vec 7.40507e+08 -999 -999 9.05793 1 1 0
+ vec 7.50664e+08 -999 -999 2.54044 1 1 0
+ vec 7.56755e+08 -999 -999 0.162131 1 1 0
+ vec 7.83156e+08 -999 -999 -0.0425423 1 1 0
+ vec 8.34867e+08 -999 -999 -4.70588 1 1 0
+ vec 8.39279e+08 -999 -999 -1.29601 1 1 0
+ vec 8.42077e+08 -999 -999 -1.32701 1 1 0
+ vec 8.1583e+08 -0.0201867 -999 -2.22517 1 1 0
+ vec 8.16868e+08 -999 -999 3.44427 1 1 0
+ vec 8.89944e+08 -0.46402 -999 0.21582 1 1 0
+ vec 8.89645e+08 -999 -999 5.47572 1 1 0
+ vec 9.05214e+08 -999 -999 6.17318 1 1 0
+ vec 8.62165e+08 -999 -999 3.19187 1 1 0
+ vec 8.83589e+08 -0.0172298 -999 2.87177 1 1 0
+ vec 9.56251e+08 -0.483067 -999 0.951892 1 1 0
+ vec 8.85619e+08 -999 -999 0.530915 1 1 0
+ vec 9.00368e+08 -999 0.599098 2.55115 1 1 0
+ vec 9.02545e+08 -999 -999 0.01669 1 1 0
+ vec 9.21075e+08 -999 0.380501 -0.281071 1 1 0
+ vec 9.21975e+08 -999 -999 -0.266998 1 1 0
+ vec 9.31488e+08 -999 -999 -0.301766 1 1 0
+ vec 9.41847e+08 -999 -999 0.662799 1 1 0
+ vec 9.42716e+08 -999 -999 0.815391 1 1 0
+ vec 9.49492e+08 -999 -999 4.00717 1 1 0
+ vec 9.46847e+08 -999 -999 6.55083 1 1 0
+ vec 1.00488e+09 -999 -999 -1.4064 1 1 0
+ vec 1.01983e+09 -999 -999 -3.51755 1 1 0
+ vec 1.03023e+09 -999 -999 0.446608 1 1 0
+ vec 1.03048e+09 -999 -999 0.503646 1 1 0
+ vec 9.56631e+08 -999 -999 0.508168 1 1 0
+ vec 9.77241e+08 0.477882 -999 3.42427 1 1 0
+ vec 1.01486e+09 -999 -999 0.141576 1 1 0
+ vec 1.02874e+09 -999 -999 1.65241 1 1 0
+ vec 1.03423e+09 -999 -999 0.165196 1 1 0
+ vec 1.04698e+09 -999 -0.418777 -1.72846 1 1 0
+ vec 1.04622e+09 -999 -999 2.33103 1 1 0
+ vec 1.05242e+09 -999 -999 -1.54838 1 1 0
+ vec 1.05744e+09 -0.529198 -999 3.1371 1 1 0
+ vec 1.10623e+09 0.0683708 -999 1.11455 1 1 0
+ vec 1.11456e+09 -0.117094 -999 1.82787 1 1 0
+ vec 1.13581e+09 -999 -999 6.40295 1 1 0
+ vec 1.12301e+09 -999 -999 -4.76354 1 1 0
+ vec 1.19339e+09 0.147614 -999 5.7298 1 1 0
+ vec 1.21689e+09 -999 -999 3.19852 1 1 0
+ vec 1.09886e+09 -999 -999 9.08508 1 1 0
+ vec 1.12709e+09 -999 -999 3.96404 1 1 0
+ vec 1.15828e+09 -999 -999 -0.175315 1 1 0
+ vec 1.19714e+09 -999 -999 1.74104 1 1 0
+ vec 1.22729e+09 -999 -999 3.95305 1 1 0
+ vec 1.2655e+09 -0.590714 -999 0.14273 1 1 0
+ vec 1.29562e+09 0.308292 -999 -2.65696 1 1 0
+ vec 1.30784e+09 -0.197639 -999 0.660952 1 1 0
+ vec 1.32111e+09 -999 -999 2.67239 1 1 0
+ vec 1.25431e+09 -0.022795 -999 -2.01048 1 1 0
+ vec 1.33022e+09 -999 -999 -3.30554 1 1 0
+ vec 1.34593e+09 -999 -999 3.2885 1 1 0
+ vec 1.39277e+09 -999 -999 1.51747 1 1 0
+ vec 1.40925e+09 -999 -999 3.16764 1 1 0
+ vec 1.40144e+09 -999 -999 -2.33391 1 1 0
+ vec 1.37576e+08 -999 -999 2.59898 1 1 0
+ vec 1.77961e+08 -999 -999 3.36392 1 1 0
+ vec 1.52957e+08 0.466198 -999 1.50172 1 1 0
+ vec 2.13126e+08 -999 -999 -2.26065 1 1 0
+ vec 1.58213e+08 -999 -999 1.16257 1 1 0
+ vec 2.22077e+08 -999 -999 -5.85614 1 1 0
+ vec 3.47423e+08 -999 -999 -0.232366 1 1 0
+ vec 3.70467e+08 -999 -999 -3.42978 1 1 0
+ vec 3.72652e+08 -999 -999 4.40595 1 1 0
+ vec 5.13891e+08 -999 -999 -5.39957 1 1 0
+ vec 4.86585e+08 -999 -0.303303 -0.244317 1 1 0
+ vec 5.31315e+08 -999 -999 -0.0466928 1 1 0
+ vec 5.16507e+08 -999 -999 -4.73809 1 1 0
+ vec 6.10285e+08 -999 -999 -1.02084 1 1 0
+ vec 7.36302e+08 -999 -999 -8.47056 1 1 0
+ vec 7.40757e+08 -999 -999 3.02653 1 1 0
+ vec 7.55595e+08 -999 -999 2.82773 1 1 0
+ vec 8.50982e+08 -999 -999 2.56504 1 1 0
+ vec 6.30604e+08 -999 -999 -3.16316 1 1 0
+ vec 7.04833e+08 -999 -999 -0.682832 1 1 0
+ vec 6.71789e+08 -999 -999 -2.01824 1 1 0
+ vec 6.80213e+08 -999 -999 -2.85966 1 1 0
+ vec 7.01593e+08 -999 -999 -0.26557 1 1 0
+ vec 7.9184e+08 -999 -999 1.87749 1 1 0
+ vec 7.49668e+08 -999 -999 4.86013 1 1 0
+ vec 7.61719e+08 0.0955973 -999 -5.02879 1 1 0
+ vec 7.62293e+08 -999 -999 -5.5787 1 1 0
+ vec 7.64941e+08 -999 -999 2.0704 1 1 0
+ vec 7.9635e+08 -999 -999 1.54226 1 1 0
+ vec 8.74898e+08 -999 -999 3.22752 1 1 0
+ vec 8.3862e+08 -999 -999 0.303699 1 1 0
+ vec 8.72026e+08 -999 -999 1.51479 1 1 0
+ vec 1.22741e+09 -999 -999 3.0344 1 1 0
+ vec 9.38358e+08 -999 -999 -0.0123234 1 1 0
+ vec 9.93846e+08 -999 -999 -8.67318 1 1 0
+ vec 1.05866e+09 -999 -999 4.01333 1 1 0
+ vec 1.01715e+09 -999 -999 -5.09394 1 1 0
+ vec 1.05183e+09 -999 -999 -1.39265 1 1 0
+ vec 1.25233e+09 -999 -999 -0.592148 1 1 0
+ vec 1.12079e+09 -999 -999 2.86321 1 1 0
+ vec 1.19647e+09 -999 -999 -1.65522 1 1 0
+ vec 1.19417e+09 -999 -999 -1.86049 1 1 0
+ vec 1.22145e+09 -999 -999 0.0444844 1 1 0
+ vec 1.2376e+09 -999 -999 -0.588956 1 1 0
+ vec 1.30609e+09 -999 -999 4.11121 1 1 0
+ vec 1.30815e+09 -999 -999 -3.08663 1 1 0
+ vec 1.32581e+09 -999 -999 2.30605 1 1 0
+ vec 1.46665e+09 -999 -999 -1.2533 1 1 0
+ vec 1.41331e+09 -999 -999 -9.04588 1 1 0
+ vec 1.49389e+09 0.216846 -999 -0.918682 1 1 0
+ vec 1.55362e+09 -999 -999 -0.878103 1 1 0
+ vec 1.51843e+09 -999 -999 7.26512 1 1 0
+ vec 1.61211e+09 -999 -999 0.737474 1 1 0
+ vec 1.65027e+09 -999 -999 4.93779 1 1 0
+ vec 1.66116e+09 -999 -999 -2.8892 1 1 0
+ vec 2.7706e+09 0.120869 -999 3.5785 1 1 0
+ vec 2.80973e+09 -999 -999 4.15959 1 1 0
+ vec 1.77586e+08 -999 -999 -4.77631 1 1 0
+ vec 1.91225e+08 -999 -999 2.07044 1 1 0
+ vec 2.86071e+09 -999 -999 1.29657 1 1 0
+ vec 2.8889e+09 0.00112797 -999 -5.77618 1 1 0
+ vec 2.92814e+09 -999 -999 -0.590794 1 1 0
+ vec 2.96796e+09 -999 -999 -4.48444 1 1 0
+ vec 1.3426e+08 -999 -999 3.19232 1 1 0
+ vec 4.93987e+08 -999 -999 1.814 1 1 0
+ vec 1.78462e+09 -999 -999 3.53636 1 1 0
+ vec 2.24625e+09 -999 -999 2.65599 1 1 0
+ vec 2.35091e+09 -999 -999 5.80207 1 1 0
+ vec 1.91387e+09 0.139746 -999 -2.85193 1 1 0
+ vec 2.02934e+09 -999 -999 2.30627 1 1 0
+ vec 2.03624e+09 -999 -999 1.3668 1 1 0
+ vec 2.043e+09 -999 -999 1.59122 1 1 0
+ vec 2.04132e+09 -999 -999 1.38172 1 1 0
+ vec 2.08854e+09 -999 -999 6.02815 1 1 0
+ vec 2.05244e+09 -999 -999 -2.03161 1 1 0
+ vec 2.05575e+09 -999 -999 2.55192 1 1 0
+ vec 2.07597e+09 -999 -999 0.607058 1 1 0
+ vec 2.09574e+09 -999 -999 7.33048 1 1 0
+ vec 2.19095e+09 -999 -999 3.80906 1 1 0
+ vec 2.23694e+09 -999 -999 -1.18117 1 1 0
+ vec 2.25532e+09 -999 -999 -0.54141 1 1 0
+ vec 2.30382e+09 -999 -999 4.4313 1 1 0
+ vec 2.37301e+09 -999 -999 4.99318 1 1 0
+ vec 2.48481e+09 -999 -999 -0.0480259 1 1 0
+ vec 2.52263e+09 -999 -999 5.90661 1 1 0
+ vec 2.53377e+09 -999 -999 2.38588 1 1 0
+ n used 1+1+1 = 684
+ l used 2+1 = 469225
+ ll used 2+1 = 0
+ lll used 2+1 = 0
+[0mroot [3] .q
+[0m]0;lgemedia@cmslpc150:src[lgemedia@cmslpc150 src]$ exit
+exit
+
+Script done on Sat Sep 25 09:50:47 2021
