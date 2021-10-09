@@ -58,7 +58,9 @@ Double_t fitfun(Double_t *x, Double_t *par) {
    fitgg->SetParameter(0,0.08); // norm
    //   fitgg->SetParameter(0,18.0); // 
    fitgg->FixParameter(1,1.96); // background
+   //////fitgg->FixParameter(1,1.87); // background average!
    fitgg->SetParameter(2,7.61); // background
+   //////fitgg->SetParameter(2,7.49); // background average!
    // signal
    fitgg->SetParameter(3,0.2); // norm w-mass
    //   fitgg->SetParameter(3,11.49); // 
@@ -94,30 +96,48 @@ Double_t fitfun(Double_t *x, Double_t *par) {
    legend->AddEntry(fitgg,"Global fit","l");
    legend->Draw();
 
+// integrals
+std::cout << " begin integrals " << std::endl;
+
+double signalint = signalFcn->Integral(-20,20)/(xbin*40/200.);
+std::cout << " signalint = " << signalint << std::endl;
+
+double backgint = backFcn->Integral(-20,20)/(xbin*40/200.);
+std::cout << " backgint = " << backgint << std::endl;
+
+double fitint = fitgg->Integral(-20,20)/(xbin*40/200.);
+std::cout << " fitint = " << fitint << std::endl;
+
+std::cout << " end integrals " << std::endl;
+
+//------
 
 //signalFcn->Integral(1.0,2.0);
-double r = signalFcn->Integral(-20,20)/(20.-(-20.));
-std::cout << " r = " << r << std::endl;
+//double r = signalFcn->Integral(-20,20)/(20.-(-20.));
+//std::cout << " r = " << r << std::endl;
 
-double rr = backFcn->Integral(-20,20)/(20.-(-20.));
-std::cout << " rr = " << rr << std::endl;
+//double myint = signalFcn->Integral(-20,20)/(xbin*40/200.);
+//std::cout << " myint = " << myint << std::endl;
 
-double rrr = fitgg->Integral(-20,20)/(20.-(-20.));
-std::cout << " rrr = " << rrr << std::endl;
+//double rr = backFcn->Integral(-20,20)/(20.-(-20.));
+//std::cout << " rr = " << rr << std::endl;
+
+//double rrr = fitgg->Integral(-20,20)/(20.-(-20.));
+//std::cout << " rrr = " << rrr << std::endl;
 
 //double rrrr = fitgg->Integral(1.0,3.0);
 //std::cout << " rrrr = " << rrrr << std::endl;
 
 
 //signalFcn->Integral(1.0,2.0);
-double d = signalFcn->Integral(-20,20);
- std::cout << " signal integral = " << d << std::endl;
+//double d = signalFcn->Integral(-20,20);
+// std::cout << " signal integral = " << d << std::endl;
 
-double dd = backFcn->Integral(-20,20);
- std::cout << " background integral = " << dd << std::endl;
+//double dd = backFcn->Integral(-20,20);
+// std::cout << " background integral = " << dd << std::endl;
 
-double ddd = fitgg->Integral(-20,20);
- std::cout << " fit integral = " << ddd << std::endl;
+//double ddd = fitgg->Integral(-20,20);
+// std::cout << " fit integral = " << ddd << std::endl;
 
 //double rrrr = fitgg->Integral(1.0,3.0);
 //std::cout << " rrrr = " << rrrr << std::endl
