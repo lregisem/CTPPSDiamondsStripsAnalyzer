@@ -1,0 +1,128 @@
+// fitpps.txt
+
+//Gauss function: g(x) = p0*exp(-0.5*((x-p1)/p2)^2)
+Double_t mygauss(Double_t *x, Double_t *par) {
+  return par[0]*TMath::Exp(-0.5*pow((x[0]-par[1])/par[2],2));
+}
+
+// Sum of background and signal function
+Double_t fitfun(Double_t *x, Double_t *par) {
+  return mygauss(x,par) + mygauss(x,&par[3]);
+}
+
+   TCanvas *c1 = new TCanvas("c1","PPS timing ",10,10,700,700);
+   c1->SetFillColor(33);
+   c1->SetFrameFillColor(41);
+   c1->SetGrid();
+   
+   //gStyle->SetOptFit(0102);
+   //gStyle->SetOptFit(1112);
+   //gStyle->SetOptFit();
+
+//gEnv->Print();
+
+//...not obsolete
+//gEnv->GetValue(“Canvas.SavePrecision”, -1);
+//gEnv->SetValue(“Canvas.SavePrecision”, 16);
+
+   h1->SetMarkerStyle(21);
+   h1->SetMarkerSize(0.8);
+// h1->SetStats(0);
+
+   // create a TF1 with 6 parameters
+   TF1 *fitgg = new TF1("fitgg",fitfun,-20.,20.,6);
+   fitgg->SetNpx(500);
+   fitgg->SetLineWidth(4);
+   fitgg->SetLineColor(kMagenta);
+
+   // first try without starting values for the parameters
+   // This defaults to 1 for each param.
+   // this results in an ok fit for the polynomial function
+   // however the non-linear part (lorenzian) does not
+   // respond well.
+   //fitgg->SetParameters(1,1,1,1,1,1);
+   //h1->Fit("fitgg","0");
+
+   Double_t xbin = 10.0; // this is a factor!!! 40/200 = 0.2 ---> 0.2 * xbin = 2 cm
+   h1->Rebin(xbin);
+   //h1->Draw("HIST");
+
+   Double_t factor = 1.;
+   h1->Scale(factor/h1->Integral());
+   
+   fitgg->SetParNames("backg p0","backg p1","backg p2","signal p3","signal p4","signal p5");
+
+
+   // second try: set start values for some parameters
+   // backgroung
+   fitgg->SetParameter(0,0.08); // norm
+   //   fitgg->SetParameter(0,18.0); // 
+   fitgg->FixParameter(1,1.96); // background
+   fitgg->SetParameter(2,7.61); // background
+   // signal
+   fitgg->SetParameter(3,0.2); // norm w-mass
+   //   fitgg->SetParameter(3,11.49); // 
+   fitgg->SetParameter(4,-0.01); // w-mass
+   fitgg->SetParameter(5,2.9); //   w-mass
+// h1->GetYaxis()->SetRangeUser(0,16);
+   h1->Fit("fitgg","V+","ep");
+
+   // improve the picture:
+   TF1 *backFcn = new TF1("backFcn",mygauss,-20.,20.,3);
+   backFcn->SetLineColor(kRed);
+   TF1 *signalFcn = new TF1("signalFcn",mygauss,-20.,20.,3);
+   signalFcn->SetLineColor(kBlue);
+   signalFcn->SetNpx(500);
+   Double_t par[6];
+
+// writes the fit results into the par array
+   fitgg->GetParameters(par);
+
+   backFcn->SetParameters(par);
+   backFcn->Draw("same");
+
+   signalFcn->SetParameters(&par[3]);
+   signalFcn->Draw("same");
+
+   // draw the legend
+   TLegend *legend=new TLegend(0.585,0.683,0.879,0.850);
+   legend->SetTextFont(72);
+   legend->SetTextSize(0.03);
+   legend->AddEntry(h1,"Data","lpe");
+   legend->AddEntry(backFcn,"Background fit","l");
+   legend->AddEntry(signalFcn,"Signal fit","l");
+   legend->AddEntry(fitgg,"Global fit","l");
+   legend->Draw();
+
+
+//signalFcn->Integral(1.0,2.0);
+double r = signalFcn->Integral(-20,20)/(20.-(-20.));
+std::cout << " r = " << r << std::endl;
+
+double rr = backFcn->Integral(-20,20)/(20.-(-20.));
+std::cout << " rr = " << rr << std::endl;
+
+double rrr = fitgg->Integral(-20,20)/(20.-(-20.));
+std::cout << " rrr = " << rrr << std::endl;
+
+//double rrrr = fitgg->Integral(1.0,3.0);
+//std::cout << " rrrr = " << rrrr << std::endl;
+
+
+//signalFcn->Integral(1.0,2.0);
+double d = signalFcn->Integral(-20,20);
+ std::cout << " signal integral = " << d << std::endl;
+
+double dd = backFcn->Integral(-20,20);
+ std::cout << " background integral = " << dd << std::endl;
+
+double ddd = fitgg->Integral(-20,20);
+ std::cout << " fit integral = " << ddd << std::endl;
+
+//double rrrr = fitgg->Integral(1.0,3.0);
+//std::cout << " rrrr = " << rrrr << std::endl
+
+//main->Fit("func","QWEMR"); // or with likelihood: "LQWEMR"
+
+//Double_t factor = 1.;
+//h1->Scale(factor/h1->Integral());

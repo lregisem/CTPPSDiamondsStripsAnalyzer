@@ -240,7 +240,7 @@ void NewTimingMacro::Loop()
    // building the background
 
    // correction!
-   // the correct number of entries in the vector is m (it goes from 0 to m-1); IF varies from 0 to i<m 
+   // the correct number of entries in the vector is m indeed (it goes from 0 to m-1); IF varies from 0 to i<m 
    
    // crossing entries method
    for (Int_t i=0; i<m-1;i++)
@@ -329,19 +329,19 @@ void NewTimingMacro::Loop()
   // 2+1: ID#15:vtxz+(t1=t2), ID#16:(vtxz=t1)+t2, ID#17:(vtxz=t2)+t1
 
     if( (a == b) && (a != c) && (b != c) )
-      //if( (a = b) && (a != c) )
+      //if( (a == b) && (a != c) )
       {	  
         h15->Fill(vec[c][3] - (vec[a][2]-vec[b][1])*C/2);
 	l++;
       }
     if( (a != b) && (a == c) && (b != c) )
-      //if( (a != b) && (a = c) )
+      //if( (a != b) && (a == c) )
       {	  
         h16->Fill(vec[c][3] - (vec[a][2]-vec[b][1])*C/2);
 	ll++;
       }
     if( (a != b) && (a != c) && (b == c) )
-      //if( (a != b) && (b = c) )
+      //if( (a != b) && (b == c) )
       {	  
         h17->Fill(vec[c][3] - (vec[a][2]-vec[b][1])*C/2);
 	lll++;
